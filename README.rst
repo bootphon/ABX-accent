@@ -15,8 +15,8 @@ The main modules and other submodules.
 - `Abkhazia 
   <https://docs.cognitive-ml.fr/abkhazia>`_
   makes it easy to obtain simple baselines for
-  supervised ASR (using [Kaldi](http://kaldi-asr.org)) and ABX tasks
-  (using [ABXpy](https://github.com/bootphon/ABXpy))
+  supervised ASR (using Kaldi<http://kaldi-asr.org> and ABX tasks
+  (using ABXpy<https://github.com/bootphon/ABXpy>.
 
 - `Splits data`
   test and dev sets consist in two hours of speech within 12 speakers
