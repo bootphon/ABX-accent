@@ -12,8 +12,9 @@ Organisation
 
 The main modules and other submodules.
 
-- `Àbkhazia 
-<https://docs.cognitive-ml.fr/abkhazia>`_ is used for creating the format of the data.
+- `Abkhazia 
+<https://docs.cognitive-ml.fr/abkhazia>`_
+is used for creating the format of the data.
 
 - `Splits data`
 test and dev sets consist in two hours of speech within 12 speakers
