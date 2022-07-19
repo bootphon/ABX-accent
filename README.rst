@@ -5,19 +5,22 @@ dataset that contains ten different regional accents.
 
 Organisation
 ------------
-- Àbkhazia 
-<https://docs.cognitive-ml.fr/abkhazia>
+The main modules and other submodules.
+- `Àbkhazia 
+<https://docs.cognitive-ml.fr/abkhazia>`_ is used for creating the format of the data.
 
-- Splits data
+- `Splits data`
 test and dev sets consist in two hours of speech within 12 speakers
 including six Females and six Males. All the data from the
 other speakers is included into the train set.
 
-- Forced Alignment
-<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>
-- The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module
-<http://h5features.readthedocs.org/en/latest/h5features.html>`
-- Item files
+- `Forced Alignment
+<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>ìs used for 
+
+- `H5features
+<http://h5features.readthedocs.org/en/latest/h5features.html>` _ The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module
+
+- `Item files
 
 - `task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
