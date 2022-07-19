@@ -23,18 +23,18 @@ other speakers is included into the train set.
 
 - `Forced Alignment
   <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_
-is used for.
+  
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
   The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module.
 
-- `Item files`_
-  is used for.
+- `Item files` 
+  generate the item files that will be used on ABX.
 
 - `task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
-   used for creating a new task and preprocessing.
+  used for creating a new task and preprocessing.
 
 - `distances package
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_ is
