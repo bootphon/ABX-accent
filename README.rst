@@ -14,7 +14,9 @@ The main modules and other submodules.
 
 - `Abkhazia 
   <https://docs.cognitive-ml.fr/abkhazia>`_
-  is used for creating the format of the data.
+  makes it easy to obtain simple baselines for
+  supervised ASR (using [Kaldi](http://kaldi-asr.org)) and ABX tasks
+  (using [ABXpy](https://github.com/bootphon/ABXpy))
 
 - `Splits data`
   test and dev sets consist in two hours of speech within 12 speakers
@@ -48,6 +50,23 @@ The main modules and other submodules.
 - `analyze module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results
+  ## Licence
+
+**Copyright 2022 CoML team (Inria, ENS, CNRS, EHESS)**
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
   
 
 
