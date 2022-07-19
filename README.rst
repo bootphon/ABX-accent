@@ -50,7 +50,8 @@ The main modules and other submodules.
 - `analyze module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results
-  ## Licence
+  
+## Licence
 
 **Copyright 2022 CoML team (Inria, ENS, CNRS, EHESS)**
 
