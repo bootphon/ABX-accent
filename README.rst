@@ -20,10 +20,11 @@ including six Females and six Males. All the data from the
 other speakers is included into the train set.
 
 - `Forced Alignment
-<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_is used for .
+<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_is used for.
 
 - `H5features
-<http://h5features.readthedocs.org/en/latest/h5features.html>`_ The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module
+<http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
+The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module.
 
 - `Item files`_is used for.
 
