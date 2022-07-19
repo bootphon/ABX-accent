@@ -29,7 +29,7 @@ The main modules and other submodules.
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
-  The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module.
+  The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
 
 - `Item files` 
   generate the item files that will be used on ABX.
