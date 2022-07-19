@@ -13,7 +13,7 @@ Organisation
 The main modules and other submodules.
 
 - `Abkhazia 
-  <https://docs.cognitive-ml.fr/abkhazia>`_
+  <https://github.com/bootphon/abkhazia/tree/aesrc>`_
   makes it easy to obtain simple baselines for
   supervised ASR (using `Kaldi<http://kaldi-asr.org>` and ABX tasks
   (using ABXpy<https://github.com/bootphon/ABXpy>.
