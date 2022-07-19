@@ -1,3 +1,6 @@
+.. image:: https://anaconda.org/coml/abx/badges/version.svg
+    :target: https://anaconda.org/coml/abx
+
 AESRC dataset
 ==============
 The Accented English Speech Recognition Challenge is a
@@ -5,6 +8,7 @@ dataset that contains ten different regional accents.
 
 Organisation
 ------------
+
 The main modules and other submodules.
 - `Àbkhazia 
 <https://docs.cognitive-ml.fr/abkhazia>`_ is used for creating the format of the data.
