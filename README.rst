@@ -13,8 +13,8 @@ Organisation
 The main modules and other submodules.
 
 - `Abkhazia 
-<https://docs.cognitive-ml.fr/abkhazia>`_
-is used for creating the format of the data.
+  <https://docs.cognitive-ml.fr/abkhazia>`_
+  is used for creating the format of the data.
 
 - `Splits data`
 test and dev sets consist in two hours of speech within 12 speakers
@@ -27,14 +27,14 @@ is used for.
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
-The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module.
+  The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module.
 
 - `Item files`_
   is used for.
 
 - `task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
-  used for creating a new task and preprocessing.
+   used for creating a new task and preprocessing.
 
 - `distances package
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_ is
