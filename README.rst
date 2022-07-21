@@ -20,8 +20,8 @@ The main modules and other submodules.
 
 - `Splits data`
   test and dev sets consist in two hours of speech within 12 speakers
-  including six Females and six Males. All the data from the
-  other speakers is included into the train set.
+  including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
+  All the data from the other speakers is included into the train set.
 
 - `Forced Alignment
   <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_
