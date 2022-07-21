@@ -18,7 +18,7 @@ The main modules and other submodules.
   <https://github.com/bootphon/abkhazia/tree/aesrc>`_
   makes it easy to obtain simple baselines for
   supervised ASR (using `Kaldi <http://kaldi-asr.org>`_) and ABX tasks
-  (using ABXpy<https://github.com/bootphon/ABXpy>).
+  (using _`ABXpy<https://github.com/bootphon/ABXpy>`_).
    
    After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
 - `Splits data`
@@ -26,24 +26,22 @@ The main modules and other submodules.
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
-  scripts used on the `section
-    <https://github.com/bootphon/AESRC/splits>`_.
-  `List of speakers and filenames<https://github.com/bootphon/AESRC/splits>`.
+  scripts used on the `section<https://github.com/bootphon/AESRC/splits>`_.
+  _`List of speakers and filenames<https://github.com/bootphon/AESRC/splits>`_.
   
    Once we split the dataset to test,dev and train, we 
 
-- `Forced Alignment
-  <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpus      of annotated audio files.
+- `Forced Alignment<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
   
-*Evals*
+**Evals**
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
   The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-  scripts used are on section <https://github.com/bootphon/AESRC/evals/h5f>
+  scripts used are on this _`section<https://github.com/bootphon/AESRC/evals/h5f>`_.
   
 - `Item files` 
-  generate the item files that will be used on ABX.scripts used are on section _<https://github.com/bootphon/AESRC/evals/items>
+  generate the item files that will be used on ABX.scripts used are on this _`section _<https://github.com/bootphon/AESRC/evals/items>`_.
   
 
 
@@ -64,7 +62,7 @@ The main modules and other submodules.
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `score average _<https://>`,to generate the average of  
+- `score average<https://>`_ ,to generate the average of  
   
 Licence
 ========
