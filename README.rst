@@ -4,8 +4,13 @@
 
 ABX_Accents
 ==============
-The Accented English Speech Recognition Challenge is a
-dataset that contains ten different regional accents.
+All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
+
+- Development data(AESRC)
+- Evaluation software setup
+
+The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
+
 
 Organisation
 ------------
