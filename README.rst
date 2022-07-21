@@ -31,7 +31,7 @@ The main modules and other submodules.
   Scripts used on this `section<https://github.com/bootphon/AESRC/splits>`_.
   And `here<https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
   
-   Once we split the dataset to test,dev and train, we 
+  Once we split the dataset to test,dev and train, we do the :
 
 - `Forced Alignment<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
   
@@ -40,7 +40,7 @@ The main modules and other submodules.
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
   The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-  scripts used are on this `section<https://github.com/bootphon/AESRC/evals/h5f>`_.
+  scripts used are on this `section <https://github.com/bootphon/AESRC/evals/h5f>`_.
   
 - `Item files` 
   generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/evals/items>`_.
