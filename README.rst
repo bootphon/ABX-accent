@@ -22,6 +22,7 @@ The main modules and other submodules.
   test and dev sets consist in two hours of speech within 12 speakers
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
   All the data from the other speakers is included into the train set.
+  Speakers from the dev and test sets are disjoints from those of the training set
 
 - `Forced Alignment
   <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_
