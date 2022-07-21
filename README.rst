@@ -35,7 +35,7 @@ The main modules and other submodules.
   generate the item files that will be used on ABX.
   
 ABX
-====
+----
 
 - `task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
