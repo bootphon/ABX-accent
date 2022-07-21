@@ -4,8 +4,8 @@ ABX
 
 - `docs <https://github.com/bootphon/ABXpy>`_.
 
-`ABX  <https://github.com/bootphon/AESRC/upload/main/bin/eval/abx/abx_dist_analyze.sh>`_
-  - **abx_distance**
+
+  - **`abx_distance<https://github.com/bootphon/AESRC/upload/main/bin/eval/abx/abx_dist_analyze.sh>`_**
   - **abx analyzes**
   - **abx score**
 
