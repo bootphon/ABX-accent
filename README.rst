@@ -33,7 +33,7 @@ The main modules and other submodules.
   
   Once we split the dataset to test,dev and train, we do the :
 
-- `Forced Alignment<https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
+- `Forced Alignment <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
   
 **Evals**
 
