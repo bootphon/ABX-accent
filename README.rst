@@ -27,8 +27,9 @@ The main modules and other submodules.
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
-  scripts used on this `section <https://github.com/bootphon/AESRC/splits>`_.
-  And the `here<https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
+  
+  Scripts used on this `section<https://github.com/bootphon/AESRC/splits>`_.
+  And `here<https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
   
    Once we split the dataset to test,dev and train, we 
 
@@ -63,7 +64,7 @@ The main modules and other submodules.
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `score average<https://github.com/bootphon/AESRC>`_ ,to generate the average of  
+- `score average <https://github.com/bootphon/AESRC>`_ ,to generate the average of  
   
 Licence
 ========
