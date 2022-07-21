@@ -12,7 +12,7 @@ Organisation
 
 The main modules and other submodules.
 
-*Data prepare*
+**Data prepare**
 
 - `Abkhazia 
   <https://github.com/bootphon/abkhazia/tree/aesrc>`_
@@ -26,8 +26,8 @@ The main modules and other submodules.
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
-  scripts used on section <https://github.com/bootphon/AESRC/splits>.
-  List of speakers and filenames, on <https://github.com/bootphon/AESRC/splits>.
+  scripts used on the `section<https://github.com/bootphon/AESRC/splits>`.
+  `List of speakers and filenames<https://github.com/bootphon/AESRC/splits>`.
   
    Once we split the dataset to test,dev and train, we 
 
