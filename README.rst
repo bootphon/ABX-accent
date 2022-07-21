@@ -21,6 +21,7 @@ The main modules and other submodules.
   (using `ABXpy <https://github.com/bootphon/ABXpy>`_).
    
   After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
+  
 - `Splits data`
   test and dev sets consist in two hours of speech within 12 speakers
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
@@ -38,10 +39,10 @@ The main modules and other submodules.
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
   The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-  scripts used are on this _`section<https://github.com/bootphon/AESRC/evals/h5f>`_.
+  scripts used are on this `section<https://github.com/bootphon/AESRC/evals/h5f>`_.
   
 - `Item files` 
-  generate the item files that will be used on ABX.scripts used are on this _`section _<https://github.com/bootphon/AESRC/evals/items>`_.
+  generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/evals/items>`_.
   
 
 
@@ -62,7 +63,7 @@ The main modules and other submodules.
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `score average<https://>`_ ,to generate the average of  
+- `score average<https://github.com/bootphon/AESRC>`_ ,to generate the average of  
   
 Licence
 ========
