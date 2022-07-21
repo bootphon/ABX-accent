@@ -12,9 +12,10 @@ from abkhazia.utils.abkhazia2abx import alignment2item
 from abkhazia.corpus import Corpus
 
 # The path to the raw aesrc dataset
-alignment_file = '/scratch2/mkhentout/AESRC_2H/results/dev/Spanish/align/alignment.txt'
-corpus_dir = '/scratch2/mkhentout/AESRC_2H/results/dev/Spanish/data/'
-item_file = '/scratch2/mkhentout/AESRC_2H/results/dev/Spanish/data/item_file.txt'
+
+alignment_file = sys.argv[1]
+corpus_dir = sys.argv[2]
+item_file = sys.argv[3]
 
 def main():
     # define and parse input arguments
