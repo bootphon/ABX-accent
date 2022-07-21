@@ -28,8 +28,8 @@ The main modules and other submodules.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
   
-  Scripts used on this `section<https://github.com/bootphon/AESRC/splits>`_.
-  And `here<https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
+  Scripts used on this `section <https://github.com/bootphon/AESRC/splits>`_.
+  And `here <https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
   
   Once we split the dataset to test,dev and train, we do the :
 
