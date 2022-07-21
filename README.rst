@@ -44,24 +44,24 @@ The main modules and other submodules.
   
 
 
-- `task module
+- `Task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
   used for creating a new task and preprocessing.
 
-- `distances package
+- `Distances package
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_ is
   used for calculating the distances necessary for the score
   calculation.
 
-- `score module
+- `Score module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_
   is used for computing the score of a task.
 
-- `analyze module
+- `Analyze module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score average. 
+- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score average. 
   
 Licence
 ========
