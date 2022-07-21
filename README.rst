@@ -2,7 +2,7 @@
     :target: https://anaconda.org/coml/abx
 
 
-AESRC dataset
+ABX_Accents
 ==============
 The Accented English Speech Recognition Challenge is a
 dataset that contains ten different regional accents.
