@@ -20,14 +20,14 @@ The main modules and other submodules.
   supervised ASR (using `Kaldi <http://kaldi-asr.org>`_) and ABX tasks
   (using `ABXpy <https://github.com/bootphon/ABXpy>`_).
    
-   After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
+  After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
 - `Splits data`
   test and dev sets consist in two hours of speech within 12 speakers
   including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
   scripts used on this `section <https://github.com/bootphon/AESRC/splits>`_.
-  `List of speakers and filenames <https://github.com/bootphon/AESRC/splits>`_.
+  And the `here<https://github.com/bootphon/AESRC/splits>`_ the list of speakers and filenames used.
   
    Once we split the dataset to test,dev and train, we 
 
