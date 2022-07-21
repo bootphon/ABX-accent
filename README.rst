@@ -12,7 +12,7 @@ Organisation
 
 The main modules and other submodules.
 
-#Data prepare
+*Data prepare*
 
 - `Abkhazia 
   <https://github.com/bootphon/abkhazia/tree/aesrc>`_
@@ -27,13 +27,14 @@ The main modules and other submodules.
   All the data from the other speakers is included into the train set.
   Speakers from the dev and test sets are disjoints from those of the training set.
   scripts used on section <https://github.com/bootphon/AESRC/splits>.
+  List of speakers and filenames, on <https://github.com/bootphon/AESRC/splits>.
   
    Once we split the dataset to test,dev and train, we 
 
 - `Forced Alignment
-  <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpus of annotated audio files.
+  <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpus      of annotated audio files.
   
-##Evals
+*Evals*
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
@@ -60,7 +61,9 @@ The main modules and other submodules.
 
 - `analyze module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
-  is used for analysing the results
+  is used for analysing the results.
+  
+- `score average _<https://>`,to generate the average of  
   
 Licence
 ========
