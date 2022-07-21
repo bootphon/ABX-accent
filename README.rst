@@ -17,7 +17,7 @@ The main modules and other submodules.
 - `Abkhazia 
   <https://github.com/bootphon/abkhazia/tree/aesrc>`_
   makes it easy to obtain simple baselines for
-  supervised ASR (using `Kaldi<http://kaldi-asr.org>`) and ABX tasks
+  supervised ASR (using  `Link text <https://domain.invalid/>`_ `Kaldi<http://kaldi-asr.org>`) and ABX tasks
   (using ABXpy<https://github.com/bootphon/ABXpy>).
    
    After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
