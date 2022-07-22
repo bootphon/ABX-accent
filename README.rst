@@ -2,7 +2,7 @@
     :target: https://anaconda.org/coml/abx
 
 
-ABX_Accents
+ABX-Accent 
 ==============
 All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
 
