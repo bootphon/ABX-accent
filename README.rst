@@ -15,55 +15,13 @@ The main modules and other submodules.
 
 **Data prepare**
 
-- `Abkhazia 
-  <https://github.com/bootphon/abkhazia/tree/aesrc>`_
-  makes it easy to obtain simple baselines for
-  supervised ASR (using `Kaldi <http://kaldi-asr.org>`_) and ABX tasks
-  (using `ABXpy <https://github.com/bootphon/ABXpy>`_).
-   
-  After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
-  
-- `Splits data <https://github.com/bootphon/AESRC/results/splits>`_
-  test and dev sets consist in two hours of speech within 12 speakers
-  including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
-  All the data from the other speakers is included into the train set.
-  Speakers from the dev and test sets are disjoints from those of the training set.Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
-  
-  Once we split the dataset to test,dev and train, we do the :
-
-- `Forced Alignment <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
-  
+  - data-splits
+  - abkhazia
+  - forced alignment
 **Evals**
+  - abx 
+  - average
 
-- `H5features
-  <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
-  The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-  scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.
-  
-- `Item files` 
-  generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
-  
-
-
-- `Task module
-  <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
-  used for creating a new task and preprocessing.
-
-- `Distances package
-  <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_ is
-  used for calculating the distances necessary for the score
-  calculation.
-
-- `Score module
-  <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_
-  is used for computing the score of a task.
-
-- `Analyze module
-  <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
-  is used for analysing the results.
-  
-- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score average. 
-  
 Licence
 ========
 
