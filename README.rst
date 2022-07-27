@@ -22,7 +22,7 @@ The main modules and other submodules.
   - abx 
   - average
 
-Licence
+License
 ========
 
 **Copyright 2022 CoML team (Inria, ENS, CNRS, EHESS)**
