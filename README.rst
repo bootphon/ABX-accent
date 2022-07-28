@@ -1,9 +1,9 @@
 ABX-Accent 
 ==============
-All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
+All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge (AESRC) is a:
 
-- Development data(AESRC)
-- Evaluation software setup
+- Development data(AESRC).
+- Evaluation software setup.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
 
@@ -18,7 +18,9 @@ The main modules and other submodules.
   - data-splits
   - abkhazia
   - forced alignment
+  
 **Evals**
+
   - abx 
   - average
 
