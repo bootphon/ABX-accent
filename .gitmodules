@@ -1,0 +1,3 @@
+[submodule "abx-accent/scripts/prepare/abkhazia/abkhazia"]
+	path = abx-accent/scripts/prepare/abkhazia/abkhazia
+	url = https://github.com/bootphon/abkhazia.git
