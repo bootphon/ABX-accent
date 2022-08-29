@@ -29,20 +29,17 @@ Permissions
  Distribution
  Patent use
  Private use
-Limitations
+ Limitations
  Liability
  Warranty
-Conditions
+ Conditions
  License and copyright notice
  State changes
  Disclose source
  Same license
-This is not legal advice. Learn more about repository licenses.
-@mmmaat
-mmmaat first commite - empty package
-Latest commit d52ee83 on 22 Oct 2020
- History
- 1 contributor
+ This is not legal advice. Learn more about repository licenses.
+@manelkhentout 
+
 674 lines (553 sloc)  34.3 KB
 
                     GNU GENERAL PUBLIC LICENSE
