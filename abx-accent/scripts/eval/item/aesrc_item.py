@@ -1,6 +1,9 @@
+'''
+Project: ABX-accent
+Corpus: AESRC
+2022
+'''
 #!/usr/bin/env python
-
-
 import argparse
 import os
 import sys

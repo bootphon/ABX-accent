@@ -1,3 +1,8 @@
+'''
+Project: ABX-accent
+Corpus: AESRC
+2022
+'''
 #!/usr/bin/env python
 import pandas as pd 
 def moyenne_task_within(task_within, task_across, outputfile):
@@ -15,7 +20,7 @@ def moyenne_task_within(task_within, task_across, outputfile):
     print("sum_within: ",total_sum_within)
     print("total n within :",total_n_within)
 
-    #mean = total_sum / len(df.index)
+
     mean_within = total_sum_within / total_n_within
     print("mean: ",mean_within)
     
@@ -75,13 +80,9 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("task_within", help="within task file")
-    #parser.add_argument("task_across", help="across task file")
     parser.add_argument('output_file')
-
     parser.parse_args()
     args, leftovers = parser.parse_known_args()
-
-    #moyenne_task_within(args.task_within, args.task_across, args.output_file)
     moyenne_task_across(args.task_within, args.output_file)
 
 
