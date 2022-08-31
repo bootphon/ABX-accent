@@ -1,8 +1,10 @@
 '''
-Project: input(Give speaker path,length) , out_put( file list with the input lenght (seconds))
+Project: ABX-accent
 Corpus: AESRC
-Author:
+2022
 '''
+#input(Give speaker path,length) , out_put( file list with the input lenght (seconds))
+
 #!/usr/bin/env python3
 from pathlib import Path
 import os
@@ -34,7 +36,6 @@ def one_spk_list(spk_path, length):
                     wav_dst = os.path.join(path, item)
                     shutil.move(wav_dst,folder_dst)
 
-	    	    
                     txt_src = item.replace('.wav', '.txt')
                     txt_dst = os.path.join(path, txt_src) 
                     shutil.move(txt_dst,folder_dst) 

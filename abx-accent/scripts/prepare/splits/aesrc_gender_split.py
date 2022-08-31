@@ -1,5 +1,9 @@
+'''
+Project: ABX-accent
+Corpus: AESRC
+2022
+'''
 #!/usr/bin/env python
-
 #AESRC dataset: split each accent on M/F for test,dev and train
 
 import os
@@ -65,7 +69,7 @@ def output_txt(D, outpath, name):
             f.write('\n')
     
 if __name__ == '__main__':
-    #data_input_path   
+     
     accents = os.listdir(data_input_path)
         
     gender_index = {'American English Speech Data': [American_M, American_F], 'Canadian English Speech Data': [Canadian_M, Canadian_F], 'Indian English Speech Data': [Indian_M, Indian_F], 'Korean Speaking English Speech Data': [Korean_M, Korean_F], 'Russian Speaking English Speech Data': [Russian_M, Russian_F], 'British English Speech Data': [British_M, British_F], 'Chinese Speaking English Speech Data': [Chinese_M, Chinese_F],'Japanese Speaking English Speech Data':  [Japenese_M, Japenese_F], 'Portuguese Speaking English Speech Data': [Portugese_M, Portugese_F], 'Spanish Speaking English Speech Data': [Spanish_M, Spanish_F]}
@@ -82,7 +86,6 @@ if __name__ == '__main__':
         
     
     
-    #print(spk_length(os.path.join(american_path, American_M[0])))
     
     
     

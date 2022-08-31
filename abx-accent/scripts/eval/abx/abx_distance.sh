@@ -1,33 +1,27 @@
 #!/bin/bash
-#
 #This for full run of the ABX pipeline in command line
 
-#get accent
-##### AESRC Corpus #####
-#         American	#
-#         British	#
-#         Canadian	#
-#         Chinese	#
-#         Indian        #
-#         Japanese	#
-#         Korean        #
-#         Spanish	#
+#  AESRC Corpus #
+#   American	#
+#   British	    #
+#   Canadian	#
+#   Chinese	    #
+#   Indian      #
+#   Japanese	#
+#   Korean      #
+#   Spanish	    #
 #	Portuguese	#
-#          Russian	#
-#########################
+#   Russian	    #
+#################
 
 echo "$(hostname)"
 
 #AESRC corpus
-#declare -a accents=("American" "Japanese" "British" "Canadian" "Chinese" "Indian" "Korean" "Spanish" "Portuguese" "Russian")
-
-declare -a accents=("Spanish")
+declare -a accents=("American" "Japanese" "British" "Canadian" "Chinese" "Indian" "Korean" "Spanish" "Portuguese" "Russian")
 
 #parametres
 results="/scratch2/mkhentout/AESRC_2H/results/test/"
 abx="/abx"
-
-
 item_file="/item_file.item"
 phone="/abx_task1.abx"
 distance_file="/distance1.distance"
