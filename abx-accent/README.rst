@@ -17,7 +17,8 @@ The main modules and other submodules.
 
 - `Data splits 
    <https://github.com/bootphon/AESRC/results/splits>`_
-   Split the AESRC data on; test and dev sets consist in two hours of speech within 12 speakers, including six Females and six Males using for ABX and 2minutes from each  speaker for adaptation.
+   split the AESRC data on; test and dev sets consist in two hours of speech within 12 speakers, 
+   including six Females and six Males using for ABX and 2minutes from each  speaker for adaptation.
    All the data from the other speakers is included into the train set.
    Speakers from the dev and test sets are disjoints from those of the training set.      
    Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
