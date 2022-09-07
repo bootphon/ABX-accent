@@ -1,4 +1,4 @@
-ABX-Accent 
+ABX-accent 
 ==============
 All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
 
