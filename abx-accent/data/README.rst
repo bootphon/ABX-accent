@@ -8,6 +8,6 @@ Data
 **Data results**
 
 - Forced alignment score (forced_alignment)
-- item files (item_files)
+- Item files (item_files)
 - ABX score (abx_score)
 - Average score (average_score)
