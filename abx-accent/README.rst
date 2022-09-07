@@ -17,9 +17,10 @@ The main modules and other submodules.
 
 - `Data splits 
    <https://github.com/bootphon/AESRC/results/splits>`_
-   Split the AESRC data on; test and dev sets consist in two hours of speech within 12    speakers, including six Females and six Males using for ABX and 2minutes from each  speaker for adaptation.
+   Split the AESRC data on; test and dev sets consist in two hours of speech within 12 speakers, including six Females and six Males using for ABX and 2minutes from each  speaker for adaptation.
    All the data from the other speakers is included into the train set.
-   Speakers from the dev and test sets are disjoints from those of the training set.      Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
+   Speakers from the dev and test sets are disjoints from those of the training set.      
+   Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
   
 Once we split the dataset to test,dev and train, we do the :
 
@@ -41,7 +42,7 @@ Once we split the dataset to test,dev and train, we do the :
   scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.
   
 - `Item files` 
-  generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
+  generate the item files that will be used on ABX.Scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
 
 - `Task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
@@ -60,7 +61,7 @@ Once we split the dataset to test,dev and train, we do the :
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score average. 
+- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score's average. 
   
 Licence
 ========
