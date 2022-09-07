@@ -1,0 +1,1 @@
+adapt(2min) frome each speakers, for each accent differeny from the files used for abx study for the same speakers.
