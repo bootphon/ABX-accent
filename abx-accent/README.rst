@@ -25,7 +25,7 @@ The main modules and other submodules.
 Once we split the dataset to test,dev and train, we do the :
 
 - `Abkhazia 
-  <https://github.com/bootphon/abkhazia/tree/aesrc>`_
+  <https://github.com/bootphon/abkhazia/tree/aesrc>`__
   makes it easy to obtain simple baselines for
   supervised ASR (using `Kaldi <http://kaldi-asr.org>`_) and ABX tasks
   (using `ABXpy <https://github.com/bootphon/ABXpy>`_).
