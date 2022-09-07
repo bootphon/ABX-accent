@@ -1,9 +1,9 @@
-ABX-Accent 
+ABX-accent 
 ==============
-All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
+All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is:
 
-- Development data(AESRC)
-- Evaluation software setup
+- Prepare the development data (AESRC).
+- Evaluation software setup.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
  
@@ -14,23 +14,24 @@ Organisation
 The main modules and other submodules.
 
 **Data prepare**
-- `Splits data <https://github.com/bootphon/AESRC/results/splits>`_
-  test and dev sets consist in two hours of speech within 12 speakers
-  including six Females and six Males using for ABx and 2minutes from each speaker for adapt.
-  All the data from the other speakers is included into the train set.
-  Speakers from the dev and test sets are disjoints from those of the training set.Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
+
+- `Data splits <https://github.com/bootphon/AESRC/results/splits>`_
+   split the AESRC data on; test and dev sets consist in two hours of speech within 12 speakers, 
+   including six Females and six Males using for ABX and 2minutes from each  speaker for adaptation.
+   All the data from the other speakers is included into the train set.
+   Speakers from the dev and test sets are disjoints from those of the training set.      
+   Scripts used on this `section <https://github.com/bootphon/AESRC/bin/prepare/splits>`_.
   
-  Once we split the dataset to test,dev and train, we do the :
+Once we split the dataset to test,dev and train, we do the :
 
 - `Abkhazia 
-  <https://github.com/bootphon/abkhazia/tree/aesrc>`_
+  <https://github.com/bootphon/abkhazia/tree/aesrc>`__
   makes it easy to obtain simple baselines for
   supervised ASR (using `Kaldi <http://kaldi-asr.org>`_) and ABX tasks
   (using `ABXpy <https://github.com/bootphon/ABXpy>`_).
    
   After validating the corpus to check that it is conform to Kaldi’s input format, we go to the splits step:
   
-
 - `Forced Alignment <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, follow the steps in the link to do phone-level forced alignment on your own corpusof annotated audio files.
   
 **Evals**
@@ -41,9 +42,7 @@ The main modules and other submodules.
   scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.
   
 - `Item files` 
-  generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
-  
-
+  generate the item files that will be used on ABX.Scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
 
 - `Task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
@@ -62,7 +61,7 @@ The main modules and other submodules.
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_
   is used for analysing the results.
   
-- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score average. 
+- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,to generate the score's average. 
   
 Licence
 ========
