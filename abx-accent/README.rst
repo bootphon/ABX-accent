@@ -1,8 +1,8 @@
 ABX-accent 
 ==============
-All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is a
+All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is:
 
-- Development data(AESRC).
+- Prepare the development data (AESRC).
 - Evaluation software setup.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
@@ -42,8 +42,6 @@ The main modules and other submodules.
   
 - `Item files` 
   generate the item files that will be used on ABX.scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
-  
-
 
 - `Task module
   <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
