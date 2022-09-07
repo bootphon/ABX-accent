@@ -1,1 +1,1 @@
-adapt(2min) frome each speakers, for each accent differeny from the files used for abx study for the same speakers.
+Adaptation(2min) from each speaker, for each accent different from the files used for abx study for the same speakers.
