@@ -20,8 +20,8 @@ The main modules and other submodules.
 
 **Data prepare**
 
-  - data-splits
-  - abkhazia
+  - Data splits
+  - Abkhazia
   
 **Evals**
 
