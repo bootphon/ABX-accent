@@ -16,8 +16,6 @@ The setup procedure is described for Linux. It has been tested on several distri
 Organisation
 ------------
 
-The main modules and other submodules.
-
 **Data**
 
 The input data and the results data.
