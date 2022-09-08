@@ -18,7 +18,7 @@ Organisation
 
 **Data**
 
-Contains the input and the result data.
+Contains the input and the results data.
   
 **Scripts**
 
