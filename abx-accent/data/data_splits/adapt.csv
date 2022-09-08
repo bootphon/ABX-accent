@@ -1,4 +1,4 @@
-filename           accent    study   set    spk     gender
+   filename        accent    study   set   speaker  gender
 G00473S1202.wav   American   adapt   dev   G00473   Female
 G00473S1204.wav   American   adapt   dev   G00473   Female
 G00473S1205.wav   American   adapt   dev   G00473   Female
