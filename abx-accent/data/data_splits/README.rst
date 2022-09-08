@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **Data Splits**
 ===============
 split the AESRC data on; *test* and *dev* sets consist in two hours of speech
@@ -30,3 +31,9 @@ the list of the Male and Female speakers we used to get the scores shows in this
 
 **filenames**:
 List of filenames used for ABX and Adaptation for dev and test set.
+=======
+**Data splits results**
+
+- **abx.csv** and **adapt.csv** For each filename ,full informations:
+Speaker,Gender of speaker, set(dev or test), study(abx or adaptation)
+>>>>>>> 885cfa1e8b2cbc56a9408500e3e7976a405f9f2e
