@@ -2,8 +2,8 @@ ABX-accent
 ==============
 The ABX-accent project based on two main steps:
 
-- Preparation of the ten accents of Accented English Speech Recognition Challenge (AESRC).
-- The evaluation.
+- Data preparation (ten accents of Accented English Speech Recognition Challenge "AESRC")
+- Data evaluation.
 
 All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge (AESRC) is a:
 
@@ -18,14 +18,13 @@ Organisation
 
 The main modules and other submodules.
 
-**Data prepare**
+**Data**
 
-  - Data splits
-  - Abkhazia
+The input data and the results data.
   
-**Evals**
+**Scripts**
 
-  - ABX 
+Scripts used for the preparation and the evaluation of the data.
   
 License
 ========
