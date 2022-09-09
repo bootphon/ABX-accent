@@ -16,9 +16,9 @@ The setup procedure is described for Linux. It has been tested on several distri
 Organisation
 ------------
 
-**Data**
+**AESRC Data**
 
-Contains the input and the results data.
+The preparation data and the results after the evaluation.
   
 **Scripts**
 
