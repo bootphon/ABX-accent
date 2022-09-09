@@ -13,7 +13,7 @@ The main modules and other submodules.
 
 **Data**
 
-***Data prepare***
+**Data prepare**
 
 - `Data splits <https://github.com/bootphon/AESRC/results/splits>`_
   First step is to split the data according to the number of the speaker you need,the     gender and the duration of data for each speaker that will be used for the evaluation   and the adaptation.
@@ -28,7 +28,7 @@ After validating the corpus to check that it is conform to Kaldi’s input forma
 
 - `Forced Alignment <https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html>`_, use the dataset after the preparation to do phone-level forced alignment.
 
-***Data evals***
+**Data evals**
 
 - `H5features
   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
