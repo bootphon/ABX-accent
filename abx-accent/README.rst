@@ -42,5 +42,6 @@ After validating the corpus to check that it is conform to Kaldi’s input forma
 
 - `Score average <https://github.com/bootphon/AESRC/results/average>`_ Calculate the average of ABxpy task scores .
 
+**Evaluation software**
 
 
