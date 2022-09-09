@@ -1,10 +1,6 @@
 ABX-accent 
 ==============
-The ABX-accent project based on two main steps:
-
-- Data preparation (ten accents of Accented English Speech Recognition Challenge "AESRC").
-- Data evaluation.
-
+The ABX-accent, project based of the epreparation and the evaluation of AESRC "Accented English Speech Recognition Challenge" data, using ABXpy.
 All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge (AESRC) is a:
 
 - Development data (AESRC).
@@ -16,13 +12,9 @@ The setup procedure is described for Linux. It has been tested on several distri
 Organisation
 ------------
 
-**- AESRC Data**
-
-The preparation data and the results after the evaluation.
+**- AESRC Data** The preparation data and the results after the evaluation.
   
-**- Scripts**
-
-Scripts used for the preparation and the evaluation of the data.
+**- Scripts** Scripts used for the preparation and the evaluation of the data.
   
 License
 ========
