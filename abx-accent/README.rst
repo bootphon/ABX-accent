@@ -43,9 +43,11 @@ The main modules and other submodules.
  - `Score average <https://github.com/bootphon/AESRC/results/average>`_ Calculate the average of ABxpy task scores .
 
 **Scripts**
- - Splits software.
- - Abkhazia software.
- - ABXpy software.
- - Average score.
+ - prepare softwares
+  - Splits software.
+  - Abkhazia software.
+ - evals
+  - ABXpy software.
+  - Average score.
 
 
