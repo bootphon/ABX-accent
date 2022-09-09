@@ -40,8 +40,7 @@ After validating the corpus to check that it is conform to Kaldi’s input forma
 - `ABXpy Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is
   used for creating a new task and preprocessing and calcultae the distances necessary for task scores.
 
-- `Score average <https://github.com/bootphon/AESRC/results/average>`_ ,
-Calculate the average of ABxpy task scores .
+- `Score average <https://github.com/bootphon/AESRC/results/average>`_ Calculate the average of ABxpy task scores .
 
 
 
