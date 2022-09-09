@@ -12,7 +12,6 @@ Organisation
 The main modules and other submodules.
 
 **Data**
-
 - Data prepare
 
  - `Data splits <https://github.com/bootphon/AESRC/results/splits>`_
