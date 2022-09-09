@@ -12,9 +12,9 @@ The setup procedure is described for Linux. It has been tested on several distri
 Organisation
 ------------
 
-**- AESRC Data** The preparation data and the results after the evaluation.
+- Data: The preparation data and the results after the evaluation.
   
-**- Scripts** Scripts used for the preparation and the evaluation of the data.
+- Scripts: Scripts used for the preparation and the evaluation of the data.
   
 License
 ========
