@@ -23,11 +23,11 @@ Example:
 .. list-table:: Title
    :widths: 25 25 50
    :header-rows: 1
-* - Heading filename 
+   
+   * - Heading filename 
      - Heading accent
      - Heading study
-     - Heading set
-     
+     - Heading set 
    * - G00473S1202.wav
      - American
      - adapt
