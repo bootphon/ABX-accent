@@ -20,6 +20,9 @@ Both global csv files contain for each audio file the following informations:
     -*speaker* : which speaker.
     -*gender* : Female or Male
 Example:
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
 * - Heading filename 
      - Heading accent
      - Heading study
