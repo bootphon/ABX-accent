@@ -33,6 +33,20 @@ Example:
      - adapt
      - dev
   
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Heading row 1, column 1
+     - Heading row 1, column 2
+     - Heading row 1, column 3
+   * - Row 1, column 1
+     -
+     - Row 1, column 3
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+
    filename        accent    study   set   speaker  gender
 G00473S1202.wav   American   adapt   dev   G00473   Female
 You can get the list of the filename from the csv file according to the accent,... you need on your study.
