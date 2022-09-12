@@ -32,12 +32,12 @@ Example:
      - American
      - adapt
      - dev
-  
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
+     
+===============  ==========
+    filename       accent 
+---------------  ----------
+G00473S1202.wav   American
+===============  ==========
 
    filename        accent    study   set   speaker  gender
 G00473S1202.wav   American   adapt   dev   G00473   Female
