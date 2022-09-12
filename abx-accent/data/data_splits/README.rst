@@ -33,15 +33,14 @@ Example:
      - adapt
      - dev
      
-===============  ==========
-    filename       accent 
----------------  ----------
-G00473S1202.wav   American
-===============  ==========
+===============  ==========  ==========  ==========  ==========  ==========
+    filename       accent       study       set        speaker    gender
+---------------  ----------  ----------  ----------  ----------  ----------
+G00473S1202.wav   American       adapt      dev         G00473    Female
+===============  ==========  ==========  ==========  ==========  ==========
 
-   filename        accent    study   set   speaker  gender
-G00473S1202.wav   American   adapt   dev   G00473   Female
-You can get the list of the filename from the csv file according to the accent,... you need on your study.
+
+You can get the list of the filename from the csv file according to the accent,study,... you need on your study.
 
 
 **Speakers**:
