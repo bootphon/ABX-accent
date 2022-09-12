@@ -20,7 +20,7 @@ Both global csv files contain for each audio file the following informations:
     -*speaker* : which speaker.
     -*gender* : Female or Male
 Example:
-.. list-table:: Title
+.. list-table:: Example
    :widths: 25 25 50
    :header-rows: 1
    
@@ -33,19 +33,11 @@ Example:
      - adapt
      - dev
   
-.. list-table:: Title
-   :widths: 25 25 50
-   :header-rows: 1
-
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+=====  =====  ======
+   Inputs     Output
+------------  ------
+  A      B    A or B
+=====  =====  ======
 
    filename        accent    study   set   speaker  gender
 G00473S1202.wav   American   adapt   dev   G00473   Female
