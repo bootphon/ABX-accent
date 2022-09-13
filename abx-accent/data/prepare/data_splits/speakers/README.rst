@@ -7,4 +7,4 @@ other speakers is included into the train set.
 Speakers from the dev and test sets are disjoints from
 those of the training set
 
-Script used to split the data, on `this section<>`
+Script used to split the data, on `this section<https://github.com/bootphon/ABX-accent/edit/main/abx-accent/scripts/prepare/>`
