@@ -1,7 +1,7 @@
 ** item files **
 ================
 Generate the item files that will be used for ABXpy.
-scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`.
+scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
 
 Item files for :
 **dev**:
