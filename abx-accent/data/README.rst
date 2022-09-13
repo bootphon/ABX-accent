@@ -3,7 +3,7 @@ Data
 
 **Data prepare**
 
-- Data splits `data_splits <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`.
+- Data splits `data_splits <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_ .
 - Abkhazia.
 - Forced alignment score `forced_alignment <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/forced_alignment>`.
 
