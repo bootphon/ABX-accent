@@ -1,5 +1,6 @@
 **Data Splits**
 ===============
+
 The first step done was, the AESRC data splits on three sets: **test**, **dev** and **train** sets.
     - **dev** and **test** : consist of two hours of speech, within 12 speakers, including six Females and six Males using for ABX, and two minutes from each speaker for adaptation. 
     - **train** : include all the data from the other speakers. Speakers from the dev and test sets are disjoints from those of the training set. 
