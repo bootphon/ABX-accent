@@ -16,7 +16,6 @@ abx.csv for files used for ABXpy et adapt.csv for files used for adaptation, thi
     - *speaker* : which speaker.
     - *gender* : Female or Male.
     
- *the ten accents are : American,British,Canadian,Chinese,Indian,Japanese,Korean,Portuguese,Spanish,Russian*
    
     
 Example:
