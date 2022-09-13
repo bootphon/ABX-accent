@@ -1,6 +1,6 @@
 ABX-accent 
 ==============
-All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge is:
+All you need to get started to work on the development data and evaluation for the Accented English Speech Recognition Challenge(AESRC) is:
 
 - Prepare the development data (AESRC).
 - Evaluation software setup.
