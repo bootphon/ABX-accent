@@ -13,6 +13,10 @@ Contains the item `test_accent_item.item` files for test set.
 example of item file: test_american_item.item .
 
 item file contenent example:
-
-#file onset offset #phone prev-phone next-phone speaker
-G00473S1001 0.5775 0.8775 m aɪ ɪ G00473
+============ ======== ========= ========= ============ ============ ============
+  file         onset    offset   #phone     prev-phone   next-phone   speaker          
+------------ -------- --------- --------- ------------  ----------- -----------
+G00473S1001   0.5775   0.8775      m            aɪ           ɪ         G00473
+============ ======== ========= ========= ============  =========== ============
+     
+  
