@@ -1,8 +1,8 @@
 **Data Splits**
 ===============
-split the AESRC data on; *test* and *dev* sets consist in two hours of speech
-within 12 speakers, including six Females and six Males using for ABX and 
-2minutes from each speaker for adaptation. 
+Split the AESRC data on; *test* and *dev* sets consist of two hours of speech, within 12 speakers, including six Females and six Males using for ABX and 
+two minutes from each speaker for adaptation. 
+
 All the data from the other speakers is included into the train set. Speakers from the dev and test sets are disjoints from those of the training set. Scripts used on this section.
 
 Two global csv files(*abx.csv* & *adapt.csv* ):
@@ -19,10 +19,17 @@ Both global csv files contain for each audio file the following informations:
     -*set* : dev or test
     -*speaker* : which speaker.
     -*gender* : Female or Male
+    
 Example:
-   filename        accent    study   set   speaker  gender
-G00473S1202.wav   American   adapt   dev   G00473   Female
-You can get the list of the filename from the csv file according to the accent,... you need on your study.
+  
+===============  ==========  ==========  ==========  ==========  ==========
+    filename       accent       study       set        speaker    gender
+---------------  ----------  ----------  ----------  ----------  ----------
+G00473S1202.wav   American       adapt      dev         G00473    Female
+===============  ==========  ==========  ==========  ==========  ==========
+
+
+You can get the list of the filename from the csv file according to the accent,study,... you need on your study.
 
 
 **Speakers**:
