@@ -1,4 +1,4 @@
-Data preapre
+Data prepare
 =============
 
 - To prepare the data, we need to split our dataset according to the sets and the number of speakers we want on our study.
