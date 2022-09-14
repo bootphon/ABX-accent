@@ -15,9 +15,9 @@ We used across and within tasks, each one has his own results on each folder.
 - `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analysing the results.
  
 ===============  ==========  ==========  ==========  ============  ==========  ==== 
-     phone_1     speaker_1    phone_2    speaker_2      by         score        n
+     phone_1     speaker_1    phone_2    speaker_2      by         score        nn
 ---------------  ----------  ----------  ----------  ------------  ----------  ----
-      k            G10208       l           G11139   ('aɪ', 'aɪ')	    1.0       1
+      k            G10208       l           G11139   ('aɪ', 'aɪ')	    1.0       11
 ===============  ==========  ==========  ==========  ============  ==========  ====
 
 
