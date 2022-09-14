@@ -5,17 +5,17 @@ Use the ABXpy package
 Organisation
 It is composed of 3 main modules and other submodules.
 
-- `task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`:
+- `task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_:
 is used for creating a new task and preprocessing.
 We used across and within tasks, each one has his own results on each folder.
 
-- `distance package <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`: 
+- `distance package <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_: 
 is used for calculating the distances necessary for the score calculation.
 
-- `score module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`:
+- `score module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_:
  is used for computing the score of a task.
 
-- `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module> `:
+- `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_:
 is used for analysing the results.
 
 across task example:
