@@ -15,9 +15,9 @@ We used across and within tasks, each one has his own results on each folder.
 - `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analysing the results.
  
 ===============  ==========  ==========  ==========  ==========  ==========
-    filename       accent       study       set        speaker    gender
+     phone_1     speaker_1    phone_2    speaker_2      by         score
 ---------------  ----------  ----------  ----------  ----------  ----------
-G00473S1202.wav   American       adapt      dev         G00473    Female
+      k            G10208       l           G11139     G00473     1.0
 ===============  ==========  ==========  ==========  ==========  ==========
 
 
