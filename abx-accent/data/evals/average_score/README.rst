@@ -3,9 +3,9 @@ Average score
 
 Calculate the average of ABX task scores:
 
-- dev : for across and within
+- dev : contains results for all accents for dev set, we have average score for across and within tasks.
 
-- test : for across and within
+- test : f contains results for all accents for test set, we have average score for across and within tasks.
 Example:
 
   across : { 
