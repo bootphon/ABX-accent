@@ -1,17 +1,11 @@
-ABX-Accent
-===========
+Data preparation
+================
 
-Prepare
-=====
 You will find here all 
 
-   - **data-splits**
+   - Split scripts: scripts used to splits the AESRC dataset, on six Female and six Male with two hours of speech for ABX and 2min for adatptation for each accent.
   
 
-    **Setup**
+   - Abkhazia : once we split the dataset, we prepare it with using Abkhazia.
 
-- **Abkhazia**
-===============
-
-    **Setup**
 
