@@ -13,7 +13,16 @@ It is composed of 3 main modules and other submodules.
 - `Score module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_: is used for computing the score of a task.
 
 - `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analysing the results.
+ 
+===============  ==========  ==========  ==========  ==========  ==========
+    filename       accent       study       set        speaker    gender
+---------------  ----------  ----------  ----------  ----------  ----------
+G00473S1202.wav   American       adapt      dev         G00473    Female
+===============  ==========  ==========  ==========  ==========  ==========
 
+
+
+- 
 across task example:
 
 =========  ===========  ==========  ===========  ===============  ========  ===
