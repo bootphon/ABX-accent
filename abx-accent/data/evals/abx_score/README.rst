@@ -15,16 +15,17 @@ It is composed of 3 main modules and other submodules.
 - `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analysing the results.
 
 across task example:
-======== ========= ========== =========== ============= ====== ===
-phone_1	 speaker_1	 phone_2	   speaker_2	       by	     score	  n
--------- --------- ---------- ----------- ------------- ------ ---
-    k	    G10208	     l	       G11139	     ('aɪ', 'aɪ')	1.0	1
-======== ========= ========== =========== ============= ====== ===
+
+======== =========== ========== =========== ============= ====== ===
+phone_1	 speaker_1	 phone_2	   speaker_2	    by	     score  n
+-------- ----------- ---------- ----------- ------------- ------ ---
+    k	    G10208	     l	       G11139	   ('aɪ', 'aɪ')	1.0	1
+======== =========== ========== =========== ============= ====== ===
 
 within task example:
 
 ======== ========= ===================== ====== ===
-phone_1	  phone_2	     by	               score	  n
+phone_1	  phone_2	     by	            score	 n
 -------- --------- --------------------- ------ --- 
    n        l	     ('G00473', 'aɪ', 'd')	  0.9	 30
 ======== ========= ===================== ====== ===
