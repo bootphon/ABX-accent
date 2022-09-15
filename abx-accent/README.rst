@@ -36,7 +36,7 @@ The main modules and other submodules.
 
 - Prepare softwares
  
-  - `Split software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits>`_.
+  - `Data split software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits>`_.
   - `Abkhazia software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia>`_.
   
 - Evals softwares
