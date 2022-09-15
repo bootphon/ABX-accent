@@ -3,22 +3,20 @@ Project: ABX-accent
 Corpus: AESRC
 2022
 '''
+
 #!/usr/bin/env python
 import argparse
 import os
 import sys
 import tempfile
-
 import abkhazia.corpus.prepare.aesrc_preparator as aesrc
 import abkhazia.utils as utils
 from abkhazia.utils.abkhazia2abx import alignment2item
 from abkhazia.corpus import Corpus
 
-# The path to the raw aesrc dataset
-
-alignment_file = sys.argv[1]
-corpus_dir = sys.argv[2]
-item_file = sys.argv[3]
+alignment_file = sys.argv[1] #alignment file path
+corpus_dir = sys.argv[2] #corpus path
+item_file = sys.argv[3] #item file path
 
 def main():
     # define and parse input arguments
