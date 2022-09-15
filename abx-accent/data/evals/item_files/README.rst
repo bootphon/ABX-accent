@@ -6,12 +6,12 @@ scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/i
 Item files for :
 
 - dev: Contains the item `dev_accent_item.item` files for dev set.
-  example : dev_american_item.item .
+  Example : dev_american_item.item .
 
 - test : Contains the item `test_accent_item.item` files for test set.
-  example : test_american_item.item .
+  Example : test_american_item.item .
 
-item file contenent example:
+Item file contenent example:
 
 =============  =========  =========  =========  =============  ============  ===========
     file         onset      offset     #phone     prev-phone    next-phone     speaker          
