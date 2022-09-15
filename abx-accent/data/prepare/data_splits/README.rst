@@ -21,6 +21,6 @@ Example:
 G00473S1202.wav   American       adapt      dev         G00473    Female
 ===============  ==========  ==========  ==========  ==========  ==========
 
-- **Speakers folder** : List of the Male and Female speakers we used to get the scores shows in this study.
+- **speakers folder** : List of the Male and Female speakers we used to get the scores shows in this study.
 
-- **Filenames folder** : List of filenames used for ABX and Adaptation for dev and test set.
+- **filenames folder** : List of filenames used for ABX and Adaptation for dev and test set.
