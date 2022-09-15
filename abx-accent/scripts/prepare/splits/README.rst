@@ -1,9 +1,9 @@
 **Data splits**
 
-- **Gender_split** : split the subdatset of each accent to Female and Male List.
+- **Gender_split** : split the subdatset of each accent to the Female and Male list.
 
   -  `The script <https://github.com/bootphon/AESRC/edit/main/bin/prepare/splits/aesrc_gender_split.py>`_ used for gender split.
-  - `The result <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_ after spliting the dataset.
+  - `The result <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_ after splitting the dataset.
 - **aesrc_speakers_list** : full list of speakers for each accent.
 - **Sub_dataset** : take only a part of the dataset for each speaker (example; for each speaker take 10min for abx and 2min for adaptation study).
 
