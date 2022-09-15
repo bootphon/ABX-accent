@@ -5,7 +5,13 @@ Corpus: AESRC
 '''
 #!/usr/bin/env python
 import pandas as pd 
-def average_task_within(task_within, task_across, outputfile):
+
+task_within = sys.argv[1]
+task_across = sys.argv[2]
+within_task_output = sys.argv[3]
+across_task_output = sys.argv[4]
+
+def average_task_within(task_within, task_across, within_task_output):
     data = [line.strip().split(" ") for line in  open(task_within, 'r', encoding="utf8")]
     total_sum = 0
     n_lines = 0
@@ -32,7 +38,7 @@ def average_task_within(task_within, task_across, outputfile):
     mean_across = total_sum_across / total_n_across
     print("mean_across: ",mean_across)
 
-    f = open(outputfile,"w")
+    f = open(within_task_output,"w")
     f.write("{")
     f.write("\nwithin: ")
     f.write(str(mean_within))
@@ -42,7 +48,7 @@ def average_task_within(task_within, task_across, outputfile):
     f.write(" \n}")
     
     f.close()
-def average_task_across(task_file, outputfile):
+def average_task_across(task_file, across_task_output):
     data = [line.strip().split(" ") for line in  open(task_file, 'r', encoding="utf8")]
     total_sum = 0
     n_lines = 0 
@@ -56,7 +62,7 @@ def average_task_across(task_file, outputfile):
     mean = total_sum / total_n
     print("mean: ",mean)
     
-    f = open(outputfile,"w")
+    f = open(across_task_output,"w")
     f.write("within : { \n")
     f.write(str(mean))
     f.write(" \n}")
