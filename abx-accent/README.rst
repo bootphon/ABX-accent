@@ -26,7 +26,7 @@ The main modules and other submodules.
 
   - `H5features <http://h5features.readthedocs.org/en/latest/h5features.html>`_ Calculate the features, scripts used are in this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.
 
-  - `Item files` generate the item files that will be used on ABXpy used are in this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
+  - `Item files`, generate the item files that will be used on ABXpy used are in this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
 
   - `ABXpy Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is used for creating a new task and preprocessing, and calculate the distances necessary for task scores.
 
