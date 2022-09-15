@@ -46,9 +46,12 @@ The main modules and other submodules.
 **Scripts**
 
  - Prepare softwares
+ 
   - Splits software.
   - Abkhazia software.
+  
  - Evals softwares
+ 
   - ABXpy software.
   - Average score.
 
