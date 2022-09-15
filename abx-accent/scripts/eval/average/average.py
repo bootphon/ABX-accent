@@ -5,26 +5,19 @@ Corpus: AESRC
 '''
 #!/usr/bin/env python
 import pandas as pd 
-def moyenne_task_within(task_within, task_across, outputfile):
+def average_task_within(task_within, task_across, outputfile):
     data = [line.strip().split(" ") for line in  open(task_within, 'r', encoding="utf8")]
-
     total_sum = 0
     n_lines = 0
-    
     df = pd.read_csv(task_within, delimiter=';', header=0)
     total_sum_within = 0
     total_n_within = 0
     for index, row in df.iterrows():
         total_sum_within += row['score'] * row['n']
         total_n_within += row['n']
-    print("sum_within: ",total_sum_within)
-    print("total n within :",total_n_within)
-
-
     mean_within = total_sum_within / total_n_within
     print("mean: ",mean_within)
     
-
     #across
     df = pd.read_csv(task_across, delimiter=';', header=0)
     total_sum_across = 0
@@ -49,22 +42,17 @@ def moyenne_task_within(task_within, task_across, outputfile):
     f.write(" \n}")
     
     f.close()
-def moyenne_task_across(task_file, outputfile):
+def average_task_across(task_file, outputfile):
     data = [line.strip().split(" ") for line in  open(task_file, 'r', encoding="utf8")]
-
     total_sum = 0
-    n_lines = 0
-    
+    n_lines = 0 
     df = pd.read_csv(task_file, delimiter=';', header=0)
     total_sum = 0
     total_n = 0
     for index, row in df.iterrows():
         total_sum += row['score'] * row['n']
         total_n += row['n']
-    print("sum: ",total_sum)
-    print("total n :",total_n)
 
-    #mean = total_sum / len(df.index)
     mean = total_sum / total_n
     print("mean: ",mean)
     
@@ -80,9 +68,13 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("task_within", help="within task file")
-    parser.add_argument('output_file')
+    parser.add_argument("task_across", help="across task file")
+    parser.add_argument('within_task_output')
+    parser.add_argument('across_task_output')
     parser.parse_args()
     args, leftovers = parser.parse_known_args()
-    moyenne_task_across(args.task_within, args.output_file)
+
+    average_task_across(args.task_within, args.within_task_output)
+    average_task_within(args.task_within, args.task_across, args.across_task_output)
 
 
