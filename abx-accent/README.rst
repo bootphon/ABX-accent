@@ -28,9 +28,9 @@ The main modules and other submodules.
 
   - `Item files`, generate the item files that will be used on ABXpy used are in this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_.
 
-  - `ABXpy Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is used for creating a new task and preprocessing, and calculate the distances necessary for task scores.
+  - `The ABXpy Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_ is used for creating a new task and preprocessing, and calculate the distances necessary for task scores.
 
-  - `Score average <https://github.com/bootphon/AESRC/results/average>`_ Calculate the average of ABxpy task scores .
+  - `Score average <https://github.com/bootphon/AESRC/results/average>`_ Calculate the average of ABxpy task scores.
 
 **Scripts**
 
