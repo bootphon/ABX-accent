@@ -17,8 +17,8 @@ The main modules and other submodules.
 - Data prepare
 
   - `Data splits <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_
-   First step is to split the data according to the number of the speakers you need, the gender and the duration of data for each speaker that will be used for the evaluation   and the adaptation.
-   Scripts used in this `section <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits>`_.
+First step is to split the data according to the number of the speakers you need, the gender and the duration of data for each speaker that will be used for the evaluation   and the adaptation.
+Scripts used in this `section <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits>`_.
 
   - `Abkhazia <https://github.com/bootphon/abkhazia/tree/aesrc>`__
    uses the sets after the split step to obtain simple baselines for
@@ -31,8 +31,7 @@ The main modules and other submodules.
 
 - Data evals
 
-  - `H5features
-   <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
+  - `H5features <http://h5features.readthedocs.org/en/latest/h5features.html>`_ 
    Calculate the features, scripts used are in this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.
 
   - `Item files` 
