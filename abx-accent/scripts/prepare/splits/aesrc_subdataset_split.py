@@ -14,8 +14,9 @@ import pandas as pd
 import librosa
 import shutil
 
-path = sys.argv[1]
-length = sys.argv[2]
+path = sys.argv[1] #the path of the speaker folder
+length = sys.argv[2] #Data length
+
 def one_spk_list(spk_path, length):
     curr_length = 0
     files = os.listdir(spk_path)
@@ -32,7 +33,7 @@ def one_spk_list(spk_path, length):
             out.append(file)
             if curr_length > float(length) :
                 for item in out:
-                    print(item)#the name of file
+                    
                     wav_dst = os.path.join(path, item)
                     shutil.move(wav_dst,folder_dst)
 
