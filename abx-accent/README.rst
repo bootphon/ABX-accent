@@ -5,7 +5,7 @@ All you need to get started to work on the development data and evaluation of th
 - Prepare the development data.
 - Evaluation software setup.
  
-AESRC corpus contain ten accents: *American,British,Canadian,Chinese,Indian,Japanese,Korean,Portuguese,Spanish,Russian*
+AESRC corpus contains ten accents: *American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian*
  
 Organisation
 ------------
