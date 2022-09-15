@@ -45,12 +45,12 @@ The main modules and other submodules.
 
 **Scripts**
 
- - Prepare softwares
+- Prepare softwares
  
   - `Splits software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits>`_.
   - `Abkhazia software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia>`_.
   
- - Evals softwares
+- Evals softwares
  
   - `ABXpy software <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/abx>`_.
   - `Average score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average>`_.
