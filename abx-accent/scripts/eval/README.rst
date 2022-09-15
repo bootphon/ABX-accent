@@ -2,6 +2,7 @@
 Evaluation software
 =====================
 To evaluate the AESRC dataset after the splitting setp, here are the steps to follow:
+
 - `H5features <http://h5features.readthedocs.org/en/latest/h5features.html>`_ The features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`. Scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/h5f>`_.    
     
 - `Item files` generate the item files that will be used on ABX. Scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/items>`_. 
