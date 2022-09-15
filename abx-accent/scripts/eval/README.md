@@ -14,5 +14,5 @@ To evaluate the AESRC dataset after the splitting setp, here are the steps to fo
     
 - `Analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_ is used for analysing the results. 
     
-- `Score average <https://github.com/bootphon/AESRC/results/average>`_, to generate the score average. 
+- `Score average <https://github.com/bootphon/AESRC/results/average>`_ , to generate the score average. 
     
