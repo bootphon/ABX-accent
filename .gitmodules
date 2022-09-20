@@ -1,6 +1,6 @@
 [submodule "abx-accent/scripts/prepare/abkhazia/abkhazia"]
 	path = abx-accent/scripts/prepare/abkhazia/abkhazia
 	url = https://github.com/bootphon/abkhazia.git
-[submodule "abx-accent/scripts/eval/abx/ABXpy/ABXpy"]
-	path = abx-accent/scripts/eval/abx/ABXpy/ABXpy
+[submodule "abx-accent/scripts/evals/abx/ABXpy/ABXpy"]
+	path = abx-accent/scripts/evals/abx/ABXpy/ABXpy
 	url = https://github.com/bootphon/ABXpy.git
