@@ -42,7 +42,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 References 
 ===========
-`the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods <https://deepai.org/publication/the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods>`_
+- Xian Shi, Fan Yu, Yizhou Lu, Yuhao Liang, Qiangze Feng, Daliang Wang, Yanmin Qian, and Lei Xie, “The accented english speech recognition challenge 2020:
+open datasets, tracks, baselines, results and methods,” in ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).IEEE, 2021, pp. 6918–6922.
   
 
 
