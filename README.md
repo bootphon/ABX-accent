@@ -18,9 +18,7 @@ The setup procedure is described for Linux. It has been tested on several distri
 
 Organisation
 ------------
-[data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) ( The preparation data and the data results after the evaluation.
-[scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) Scripts used for the preparation and the evaluation of the data.
-│   └──prepare/
+
 ```
 abx-accent/
 ├── data
@@ -45,11 +43,18 @@ abx-accent/
 ├──  scripts
 │   └──prepare/
 │   │   └── abkhazia
-│   │   └──data_splits
+│   │   └──data_splits/
+│   │   │   └── aesrc_dataset_split.py
 │   └──evals/
-│   │   └── generate_item_files
-│   │   └── generate_abx_score
-│   │   └── average_abx_score
+│   │   └── generate_item_files/
+│   │   │   └── aesrc_item.py
+│   │   └── generate_abx_score/
+│   │   │   └── ABXpy/
+│   │   │   │   └── ABXpy_env
+│   │   │   └── h5features/
+│   │   │   │   └── generate_features_files.py
+│   │   └── average_abx_score/
+│   │   │   │   └── average_abx_score.py
 │   README.rst
 ```
 
