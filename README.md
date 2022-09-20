@@ -28,7 +28,6 @@ abx-accent/
 │   │   │   └── adapt_files.csv
 │   │   └── abkhazia
 │   │   │   └── forced_alignment
-│   │   └── README.rst
 │   └──evals/
 │   │   └── item_files
 │   │   │   └── dev
@@ -39,7 +38,7 @@ abx-accent/
 │   │   └── average_abx_score
 │   │   │   └── dev
 │   │   │   └── test
-│   │   └── README.rst
+│   └── README.rst
 ├──  scripts
 │   └──prepare/
 │   │   └── abkhazia
@@ -53,9 +52,11 @@ abx-accent/
 │   │   │   │   └── ABXpy_env
 │   │   │   └── h5features/
 │   │   │   │   └── generate_features_files.py
+│   │   └── README.rst
 │   │   └── average_abx_score/
 │   │   │   │   └── average_abx_score.py
-│   README.rst
+│   └── README.rst
+│README.rst
 ```
 
 License
