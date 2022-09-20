@@ -40,7 +40,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-`References <https://deepai.org/publication/the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods>`_
+References 
+===========
+`the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods <https://deepai.org/publication/the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods>`_
   
 
 
