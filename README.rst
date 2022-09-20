@@ -12,14 +12,14 @@ Start the project
 All you need to get started to work on the development data and evaluation for AESRC is a:
 
 - preparation and evaluation softwares.
-- The results data after the preparation and the evaluation process.
+- `The results data <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data>`_ after the preparation and the evaluation process.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
 
 Organisation
 ------------
 
-- data: The preparation data and the data results after the evaluation.  
+- `data <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data>`_: The preparation data and the data results after the evaluation.  
 - scripts: Scripts used for the preparation and the evaluation of the data.
   
 License
