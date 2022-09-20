@@ -25,12 +25,32 @@ Organisation
 abx-accent/
 ├── data
 │   └──prepare/
-│   │   └── ..
+│   │   └── data_splits/
+│   │   │   └── abx_files.csv
+│   │   │   └── adapt_files.csv
+│   │   └── abkhazia
+│   │   │   └── forced_alignment
+│   │   └── README.rst
 │   └──evals/
-│   │   └── ..
+│   │   └── item_files
+│   │   │   └── dev
+│   │   │   └── test
+│   │   └── abx_score
+│   │   │   └── across_task
+│   │   │   └── within_task
+│   │   └── average_abx_score
+│   │   │   └── dev
+│   │   │   └── test
+│   │   └── README.rst
 ├──  scripts
 │   └──prepare/
+│   │   └── abkhazia
+│   │   └──data_splits
 │   └──evals/
+│   │   └── generate_item_files
+│   │   └── generate_abx_score
+│   │   └── average_abx_score
+│   README.rst
 ```
 
 License
