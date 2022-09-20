@@ -1,20 +1,24 @@
 ABX-accent 
 ==============
-The ABX-accent, project based of the epreparation and the evaluation of AESRC "Accented English Speech Recognition Challenge" data, using ABXpy.
-All you need to get started to work on the development data and evaluation for The Accented English Speech Recognition Challenge (AESRC) is a:
+The ABX-accent, project based of the preparation and the evaluation of Accented English Speech Recognition Challenge (AESRC) data, using `ABXpy <https://docs.cognitive-ml.fr/ABXpy/>` for the evaluation,We provide in our github repository all the necessary elements
+ABX metric evaluate for a pair of sounds representations (A, B) from for example (”bap”,”bop”), the probability that the representation X of another instance of the sound ”bap” is closer to A than B. ABX error rate is computed by averaging over all the minimal pairs of phone trigram in the corpus. 
+In this benchmark we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
+The corpus used on this project is  `AESRC <https://arxiv.org/abs/2102.10233>` dataset which consists of ten english accents: American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
 
-- Development data (AESRC).
-- Evaluation software.
+Start the project
+-------------------
+All you need to get started to work on the development data and evaluation for AESRC is a:
+
+- preparation and evaluation softwares.
+- The results data after the preparation and the evaluation process.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
-
 
 Organisation
 ------------
 
-- Data: The preparation data and the results after the evaluation.
-  
-- Scripts: Scripts used for the preparation and the evaluation of the data.
+- data: The preparation data and the data results after the evaluation.  
+- scripts: Scripts used for the preparation and the evaluation of the data.
   
 License
 ========
@@ -34,7 +38,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-
+`References <https://deepai.org/publication/the-accented-english-speech-recognition-challenge-2020-open-datasets-tracks-baselines-results-and-methods>`
   
 
 
