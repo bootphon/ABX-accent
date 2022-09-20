@@ -18,13 +18,17 @@ The setup procedure is described for Linux. It has been tested on several distri
 
 Organisation
 ------------
-[data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) ( The preparation data and the data results after the evaluation. 
+[data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) ( The preparation data and the data results after the evaluation.
+[scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) Scripts used for the preparation and the evaluation of the data.
+│   └──prepare/
 ```
 abx-accent/
-├── [data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) 
+├── data
 │   └──prepare/
+│   │   └── ..
 │   └──evals/
-├──  [scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) Scripts used for the preparation and the evaluation of the data.
+│   │   └── ..
+├──  scripts
 │   └──prepare/
 │   └──evals/
 ```
