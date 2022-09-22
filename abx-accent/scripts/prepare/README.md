@@ -11,4 +11,6 @@ Data preparation
   
 - [Abkhazia](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia) : after the split step, we prepare it to get the standard format of Abkhazia.
 
+requires python>=3.6 instead.
+
 
