@@ -1,6 +1,7 @@
 Data preparation
 ================
- 
+
+- `.gitlab-ci.yml`: To setup the environment uses for the preparation scripts.
 - [Split data scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/data_splits) : scripts used to splits the AESRC dataset, on six Female and six Male with two hours of speech for ABX and 2min for adatptation for each accent.
 
   - `aesrc_gender_split.py`: used to generate the `aesrc_speakers_list.txt`.
