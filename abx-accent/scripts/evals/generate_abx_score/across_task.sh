@@ -25,10 +25,10 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     #task
-    phone_task="$output$phone";
+    task="$output$phone";
     
     which abx-task
-    abx-task $item $phone_task $task_spec -v
+    abx-task $item $task $task_spec -v
 
 done
 
