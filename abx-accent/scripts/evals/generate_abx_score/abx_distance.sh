@@ -22,8 +22,6 @@ for accent in ${accents[@]};do
     item="$output$item_file";
     task="$output$phone";
     distance="$output$distance_file";
-    score="$output$score_file";
-    analyze="$output$analyse_file";
     features="$output$features_file";
 
     # computing distances
