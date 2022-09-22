@@ -30,18 +30,14 @@ Pipline example:
 -----------------
 
  
-| In                | Module   | Out             |
-|-------------------|:--------:|----------------:|
-| - data.item       | task     | - data.abx      |
-| - parameters      |          |                 |
-| - data.abx        | distance | - data.distance |
-| - data.features   |          |                 |
-| - distance        |          |                 |
-| - data.abx        | score    | - data.score    |
-| - data.distance   |          |                 |
-| - data.abx        | analyse  | - data.csv      |
-| - data.score      |          |                 |
-|-------------------|:--------:|----------------:|
+| In                                          | Module   | Out             |
+|---------------------------------------------|:--------:|----------------:|
+|  data.item & parameters                     | task     | - data.abx      |
+|  data.abx & data.features & distance        | distance | - data.distance |
+|  data.abx &  data.distance                  | score    | - data.score    |
+|  data.abx & data.score                      | analyse  | - data.csv      |
+
+
 
 Installation
 ------------
