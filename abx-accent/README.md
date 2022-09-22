@@ -54,7 +54,7 @@ abx-accent/
 
 - [Prepare scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare), scripts used to prepare the dataset:
  
-  - [Data split software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits), after getting the AESRC dataset, we have to split it following three main steps:
+  - [Data split scipts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits), after getting the AESRC dataset, we have to split it following three main steps:
    - sets split (test/dev/train): split this dataset of the ten accent has on training set, a dev and a test set, each containing different speakers.
    - speakers and gender split: balancing for male and female speakers with six Female and six Male for (test/dev) and the rest for train set.
    - speech duration: 10 min for each speaker on (test and dev) sets which is 2 hours of audio speech on total and that will be used for ABX. The dev and test set provide for each speaker a 2min adaptation set.The rest of the data used for train.
