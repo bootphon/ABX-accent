@@ -1,7 +1,11 @@
 #!/bin/bash
-#
-# This is for the ABX task "On Phone" used for the AESRC corpus
-#
+#SBATCH --partition=gpu
+#SBATCH --nodelist=puck5
+
+# loading modules and activating the right conda env
+source #your_source
+module load espeak
+conda activate abx
 
 
 #AESRC corpus
