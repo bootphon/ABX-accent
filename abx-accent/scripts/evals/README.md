@@ -14,17 +14,10 @@ The main modules and submodules.
       - `within_task.sh`
     - [within task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/within_task.sh): to generate the within task file using the item file.
       - `within_task.sh`
-- [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html) is used for calculating the distances necessary for the score calculation.
-   - `abx_distance.sh`
-      
-- [Score module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module)
-is used for computing the score of a task.
-    - `abx_score.sh`
-- [Analyze module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module)
-is used for analysing the results.
- - `abx_analyze.sh`
-- [Score average](https://github.com/bootphon/AESRC/results/average),to generate the score average. 
- - `abx_score_average.py`
+- [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html),  `abx_distance.sh`is used for calculating the distances necessary for the score calculation.
+- [Score module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module), `abx_score.sh` is used for computing the score of a task.
+- [Analyze module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module), `abx_analyze.sh` is used for analysing the results.
+- [Score average](https://github.com/bootphon/AESRC/results/average), `abx_score_average.py` to generate the abx score average. 
     
 Pipline example:
 -----------------
