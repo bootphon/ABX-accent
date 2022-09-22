@@ -7,26 +7,24 @@ Organisation
 The main modules and submodules.
 - [Item files](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_item_files) : generate the item files that will be used on ABX.
     - `aesrc_item.py`: scripts used to generate an ABX item file from the AESRC corpus.
-    
 - [H5features](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_abx_score/h5features): the features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-      - `generate_features_files.py`, generate the `h5_file.h5f`file on each input dataset.
-      
-- [Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), is
-    used for creating a new task and preprocessing.
+    - `generate_features_files.py`, generate the `h5_file.h5f`file on each input dataset.      
+- [Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), is used for creating a new task and preprocessing.
     - [across task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/across_task.sh) : to generate the across task file using the item file.
       - `within_task.sh`
     - [within task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/within_task.sh): to generate the within task file using the item file.
       - `within_task.sh`
-- [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html) is used for calculating the distances necessary for the score calculation.
+    - [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html) is used for calculating the distances necessary for the score calculation.
       - `abx_distance.sh`
+      
 - [Score module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module)
 is used for computing the score of a task.
-     - `abx_score.sh`
-- [Analyze module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module)
+    - `abx_score.sh`
+    - [Analyze module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module)
     is used for analysing the results.
-    - `abx_analyze.sh`
-- [Score average](https://github.com/bootphon/AESRC/results/average),to generate the score average. 
-    - `abx_score_average.py`
+      - `abx_analyze.sh`
+    - [Score average](https://github.com/bootphon/AESRC/results/average),to generate the score average. 
+      - `abx_score_average.py`
     
 Pipline example:
 -----------------
