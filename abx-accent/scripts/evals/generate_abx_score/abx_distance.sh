@@ -17,13 +17,11 @@ features_file="/h5_file.h5f"
 
 for accent in ${accents[@]};do
     output="$results$accent$abx";
-
     #item_file
     item="$output$item_file";
     task="$output$phone";
     distance="$output$distance_file";
     features="$output$features_file";
-
     # computing distances
     abx-distance $features $task $distance --normalization 1
 done
