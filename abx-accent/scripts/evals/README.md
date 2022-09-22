@@ -32,10 +32,10 @@ Pipline example:
  
 | In                                          | Module   | Out             |
 |---------------------------------------------|:--------:|----------------:|
-|  data.item & parameters                     | task     | - data.abx      |
-|  data.abx & data.features & distance        | distance | - data.distance |
-|  data.abx &  data.distance                  | score    | - data.score    |
-|  data.abx & data.score                      | analyse  | - data.csv      |
+|  data.item & parameters                     | task     |  data.abx      |
+|  data.abx & data.features & distance        | distance |  data.distance |
+|  data.abx &  data.distance                  | score    |  data.score    |
+|  data.abx & data.score                      | analyse  |  data.csv      |
 
 
 
@@ -49,10 +49,10 @@ The recommended installation on linux and macos is using [conda](https://docs.co
 Alternatively you may want to install it from sources. First clone
 this repository and go to its root directory. Then ::
 
-    `conda env create -n abx -f environment.yml`
-    `source activate abx`
-    `make install`
-    `make test`
+    `conda env create -n abx -f environment.yml
+     source activate abx
+     make install
+     make test`
 
 
     
