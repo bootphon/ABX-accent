@@ -15,7 +15,7 @@ The main modules and submodules.
     used for creating a new task and preprocessing.
     - [across task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/across_task.sh) : to generate the across task file using the item file.
     - [within task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/within_task.sh): to generate the within task file using the item file.
-- [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_ is used for calculating the distances necessary for the score calculation.
+- [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html) is used for calculating the distances necessary for the score calculation.
       - `abx_distance.sh`
 - [Score module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module)
 is used for computing the score of a task.
@@ -26,40 +26,40 @@ is used for computing the score of a task.
 - [Score average](https://github.com/bootphon/AESRC/results/average),to generate the score average. 
     - `abx_score_average.py`
     
-  Pipline example:
-  ---------------
-  +-------------------+----------+-----------------+
+Pipline example:
+-----------------
+
+ 
 | In                | Module   | Out             |
-+===================+==========+=================+
+|-------------------|:--------:|----------------:|
 | - data.item       | task     | - data.abx      |
 | - parameters      |          |                 |
-+-------------------+----------+-----------------+
+|-------------------|:--------:|----------------:|
 | - data.abx        | distance | - data.distance |
 | - data.features   |          |                 |
 | - distance        |          |                 |
-+-------------------+----------+-----------------+
+|-------------------|:--------:|----------------:|
 | - data.abx        | score    | - data.score    |
 | - data.distance   |          |                 |
-+-------------------+----------+-----------------+
+|-------------------|:--------:|----------------:|
 | - data.abx        | analyse  | - data.csv      |
 | - data.score      |          |                 |
-+-------------------+----------+-----------------+
+|-------------------|:--------:|----------------:|
 
 Installation
 ------------
 
-The recommended installation on linux and macos is using `conda
-<https://docs.conda.io/en/latest/miniconda.html>`_::
+The recommended installation on linux and macos is using [conda](https://docs.conda.io/en/latest/miniconda.html)
 
-  conda install -c coml abx
+  `conda install -c coml abx`
 
 Alternatively you may want to install it from sources. First clone
 this repository and go to its root directory. Then ::
 
-    conda env create -n abx -f environment.yml
-    source activate abx
-    make install
-    make test
+    `conda env create -n abx -f environment.yml`
+    `source activate abx`
+    `make install`
+    `make test`
 
 
     
