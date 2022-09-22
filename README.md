@@ -23,38 +23,28 @@ Organisation
 abx-accent/
 ├──  scripts
 │   └── prepare/
+│   │   └── data_splits
 │   │   └── abkhazia
-│   │   └── data_splits/
-│   │   │   └── aesrc_dataset_split.py
 │   └── evals/
-│   │   └── generate_item_files/
-│   │   │   └── aesrc_item.py
-│   │   └── generate_abx_score/
-│   │   │   └── ABXpy/
-│   │   │   │   └── ABXpy_env
-│   │   │   └── h5features/
-│   │   │   │   └── generate_features_files.py
-│   │   └── README.rst
-│   │   └── average_abx_score/
-│   │   │   │   └── average_abx_score.py
+│   │   └── generate_item_files
+│   │   └── generate_abx_score
+│   │   └── abx_score_average
 │   └── README.rst
 ├── data
 │   └── prepare/
-│   │   └── data_splits/
-│   │   │   └── abx_files.csv
-│   │   │   └── adapt_files.csv
+│   │   └── data_splits
 │   │   └── abkhazia
 │   │   │   └── forced_alignment
 │   └── evals/
 │   │   └── item_files
-│   │   │   └── dev
-│   │   │   └── test
+│   │   │   └── dev_set
+│   │   │   └── test_set
 │   │   └── abx_score
 │   │   │   └── across_task
 │   │   │   └── within_task
-│   │   └── average_abx_score
-│   │   │   └── dev
-│   │   │   └── test
+│   │   └── abx_score_average
+│   │   │   └── dev_set
+│   │   │   └── test_set
 │   └── README.rst
 │README.rst
 ```
