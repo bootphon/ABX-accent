@@ -14,7 +14,9 @@ The main modules and submodules.
 - [Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), is
     used for creating a new task and preprocessing.
     - [across task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/across_task.sh) : to generate the across task file using the item file.
+      - `within_task.sh`
     - [within task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/within_task.sh): to generate the within task file using the item file.
+      - `within_task.sh`
 - [ABX distances](https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html) is used for calculating the distances necessary for the score calculation.
       - `abx_distance.sh`
 - [Score module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module)
