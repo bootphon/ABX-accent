@@ -9,10 +9,10 @@ The `Accented English Speech Recognition Challenge [AESRC](https://arxiv.org/abs
 
 Start the project
 -------------------
-All you need to get started to work on the development data and evaluation for AESRC is a:
+All you need to get started to work on the development data and the evaluation of AESRC is :
 
 - [The softwares](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) used for preparation and evaluation.
-- [The results data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) fter the preparation and the evaluation process.
+- [The results data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) after the preparation and the evaluation process.
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
 
