@@ -11,7 +11,45 @@ Organisation
 ------------
 
 The main modules and other submodules.
-
+```
+abx-accent/
+├──  scripts
+│   └── prepare/
+│   │   └── abkhazia
+│   │   └── data_splits/
+│   │   │   └── aesrc_dataset_split.py
+│   └── evals/
+│   │   └── generate_item_files/
+│   │   │   └── aesrc_item.py
+│   │   └── generate_abx_score/
+│   │   │   └── ABXpy/
+│   │   │   │   └── ABXpy_env
+│   │   │   └── h5features/
+│   │   │   │   └── generate_features_files.py
+│   │   └── README.rst
+│   │   └── average_abx_score/
+│   │   │   │   └── average_abx_score.py
+│   └── README.rst
+├── data
+│   └── prepare/
+│   │   └── data_splits/
+│   │   │   └── abx_files.csv
+│   │   │   └── adapt_files.csv
+│   │   └── abkhazia
+│   │   │   └── forced_alignment
+│   └── evals/
+│   │   └── item_files
+│   │   │   └── dev
+│   │   │   └── test
+│   │   └── abx_score
+│   │   │   └── across_task
+│   │   │   └── within_task
+│   │   └── average_abx_score
+│   │   │   └── dev
+│   │   │   └── test
+│   └── README.rst
+│README.rst
+```
 **Data**
 
 - Data prepare
