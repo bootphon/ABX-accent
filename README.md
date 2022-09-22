@@ -5,7 +5,7 @@ The ABX-accent, project based of the preparation and the evaluation of Accented 
 The ABXpy metric evaluate for a pair of sounds representations (A,B) from for example (”bap”,”bop”), the probability that the representation X of another instance of the sound ”bap” is closer to A than B. ABX error rate is computed by averaging over all the minimal pairs of phone trigram in the corpus. 
 In this benchmark we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
 
-The Accented English Speech Recognition Challenge [AESRC](https://arxiv.org/abs/2102.10233) consists of ten english accents: American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
+The Accented English Speech Recognition Challenge [AESRC](https://arxiv.org/abs/2102.10233) consists of ten  different regional accents: American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
 
 Start the project
 -------------------
