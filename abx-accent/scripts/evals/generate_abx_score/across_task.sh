@@ -5,7 +5,7 @@
 # loading modules and activating the right conda env
 source #your_source
 module load espeak
-conda activate abx_aesrc
+conda activate abx
 
 
 
@@ -25,10 +25,10 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     #task
-    task_1="$output$phone";
+    phone_task="$output$phone";
     
     which abx-task
-    abx-task $item $task_1 $task_spec -v
+    abx-task $item $phone_task $task_spec -v
 
 done
 
