@@ -14,7 +14,7 @@ declare -a accents=("American" "Japanese" "British" "Canadian" "Chinese" "Indian
 results= $1
 abx="/abx"
 item_file="/item_file.item"
-phone="/abx_task.abx"
+phone="/abx_file.abx"#file is eather within or across
 distance_file="/distance.distance"
 score_file="/score.score"
 analyse_file="/task.csv"
@@ -22,13 +22,11 @@ features_file="/h5_file.h5f"
 
 for accent in ${accents[@]};do
     output="$results$accent$abx";
-
     #item_file
     item="$output$item_file";
     task="$output$phone";
     score="$output$score_file";
     features="$output$features_file";
-
     # calculating the score
     abx-score $task $distance $score
 
