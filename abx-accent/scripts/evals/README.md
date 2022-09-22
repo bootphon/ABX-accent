@@ -34,14 +34,11 @@ Pipline example:
 |-------------------|:--------:|----------------:|
 | - data.item       | task     | - data.abx      |
 | - parameters      |          |                 |
-|-------------------|:--------:|----------------:|
 | - data.abx        | distance | - data.distance |
 | - data.features   |          |                 |
 | - distance        |          |                 |
-|-------------------|:--------:|----------------:|
 | - data.abx        | score    | - data.score    |
 | - data.distance   |          |                 |
-|-------------------|:--------:|----------------:|
 | - data.abx        | analyse  | - data.csv      |
 | - data.score      |          |                 |
 |-------------------|:--------:|----------------:|
