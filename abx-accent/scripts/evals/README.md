@@ -52,7 +52,7 @@ this repository and go to its root directory. Then ::
      conda env create -n abx -f environment.yml
      source activate abx
      make install
-     make test`
+     make test
 
 
     
