@@ -78,8 +78,8 @@ abx-accent/
 
 - [Data evals](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparating the dataset on (test/dev) sets, we used ABXpy to evaluate the prepared dataset.
 
-  - [The ABXpy Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), contains two subfolders (across_task /within_task)each contains the abx task result.
+  - [The ABXpy task](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), contains two subfolders (across_task /within_task)each contains the abx task result.
 
-  - [abx score average](https://github.com/bootphon/AESRC/results/average), the average of ABxpy task scores for each accent.
+  - [Abx score average](https://github.com/bootphon/AESRC/results/average), the average of ABxpy task scores for each accent.
 
 
