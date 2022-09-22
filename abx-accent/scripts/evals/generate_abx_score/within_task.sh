@@ -16,7 +16,7 @@ results=$1
 abx="/abx"
 task_spec="-o phone -b speaker prev-phone next-phone"
 item_file="/item_file.item"
-phone="/abx_task1.abx"
+phone="/abx_within.abx"
 
 for accent in ${accents[@]};do
 
@@ -24,9 +24,9 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     #task
-    task_1="$output$phone";
+    task="$output$phone";
     
     which abx-task
-    abx-task $item $task_1 $task_spec -v
+    abx-task $item $task $task_spec -v
 
 done
