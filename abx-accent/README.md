@@ -1,8 +1,8 @@
 ABX-accent 
-==============
-All you need to get started to work on the development data and evaluation of the Accented English Speech Recognition Challenge (AESRC) is:
+=============
+To get started the abx_accent project, you need two main steps: 
 
-- Prepare the development data.
+- Prepare the development AESRC data.
 - Evaluation software setup.
  
 Organisation
@@ -49,11 +49,20 @@ abx-accent/
 │README.rst
 ```
 
-**Scripts**
+**[Scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts)**
+, contains all the scripts you need on each step;
 
-- Prepare softwares
+- Prepare scripts, the scripts used to prepare the dataset:
  
-  - [Data split software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits).
+  - [Data split software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits), after getting the AESRC dataset, we have to split it following three main steps:
+  which is a dataset that contains ten different regional ac-
+cents. From this dataset we make a split for each accent be-
+tween a train, a dev and a test set, balancing for male and
+female speakers (See Figure 1). The Test and dev sets con-
+sist in two hours of speech for each accents, with six fema
+  - sets split (test/dev/train); From this dataset of the ten accent has a training set, a dev and a test set, each containing different speakers.
+  - speakers and gender split : balancing for male and female speakers with six Female and six Male for (test/dev) with 2hours of audio speech that will be used for ABX and to allow for speaker adaptation(adapt), the dev and test set provide for each speaker a 2min adaptation set.
+
   - [Abkhazia software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia).
   
 - Evals softwares
@@ -62,7 +71,7 @@ abx-accent/
   - [Average score](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average).
 
 
-**Data**
+**[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**
 
 - Data prepare
 
