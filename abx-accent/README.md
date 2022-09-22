@@ -50,45 +50,36 @@ abx-accent/
 ```
 
 **[Scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts)**
-, contains all the scripts you need on each step;
+: contains all the scripts you need for each step.
 
-- Prepare scripts, the scripts used to prepare the dataset:
+- [Prepare scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare), scripts used to prepare the dataset:
  
   - [Data split software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits), after getting the AESRC dataset, we have to split it following three main steps:
-  which is a dataset that contains ten different regional ac-
-cents. From this dataset we make a split for each accent be-
-tween a train, a dev and a test set, balancing for male and
-female speakers (See Figure 1). The Test and dev sets con-
-sist in two hours of speech for each accents, with six fema
-  - sets split (test/dev/train); From this dataset of the ten accent has a training set, a dev and a test set, each containing different speakers.
-  - speakers and gender split : balancing for male and female speakers with six Female and six Male for (test/dev) with 2hours of audio speech that will be used for ABX and to allow for speaker adaptation(adapt), the dev and test set provide for each speaker a 2min adaptation set.
-
-  - [Abkhazia software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia).
+   - sets split (test/dev/train): split this dataset of the ten accent has on training set, a dev and a test set, each containing different speakers.
+   - speakers and gender split: balancing for male and female speakers with six Female and six Male for (test/dev) and the rest for train set.
+   - speech duration: 10 min for each speaker on (test and dev) sets which is 2 hours of audio speech on total and that will be used for ABX. The dev and test set provide for each speaker a 2min adaptation set.The rest of the data used for train.
+  - [Abkhazia software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia): provides a standard format for the dataset, used for ABXpy.
   
-- Evals softwares
+- [Evals softwares](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare), scripts used for the evaluation process:
  
-  - [ABXpy software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/abx).
-  - [Average score](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average).
+  - [ABXpy package](https://github.com/bootphon/ABXpy), is used  for computing the scores of two tasks (across and within tasks) for (test/dev) sets.
+  - [abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the abx score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for trainning set.#TBD 
 
 
-**[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**
+**[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**, on this repository, we have also two main module:
 
-- Data prepare
+- [Data prepare](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare)
 
-  - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits) First step is to split the data according to the number of the speakers you need, the gender and the duration of data for each speaker that will be used for the evaluation   and the adaptation.Scripts used in this [section](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits).
+  - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (abx_files.csv and adapt_files.csv), for each one you have the list of the filename, with it's own information(accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can used to rebuild the sets used to get the results on this repository.
 
-  - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain simple baselines for supervised ASR (using [Kaldi](http://kaldi-asr.org) ) and ABX tasks (using [ABXpy](https://github.com/bootphon/ABXpy) ). After validating the corpus to check that it is conform to Kaldi’s input format, we go to the next step:
+  - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conform to Kaldi’s input format.
 
-  - [Forced Alignment](https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html), use the dataset after the preparation to do phone-level forced alignment.
+  - [Forced Alignment](https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html), use the dataset after the preparation to do phone-level forced alignment. If everything went right , you should be able to find your alignment in `corpus/align/alignments.txt`.
 
-- Data evals
+- [Data evals](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparating the dataset on (test/dev) sets, we used ABXpy to evaluate the prepared dataset.
 
-  - [H5features](http://h5features.readthedocs.org/en/latest/h5features.html), Calculate the features, scripts used are in this [section](https://github.com/bootphon/AESRC/bin/evals/h5f).
+  - [The ABXpy Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), contains two subfolders (across_task /within_task)each contains the abx task result.
 
-  - `Item files`, generate the item files that will be used on ABXpy used are in this [section](https://github.com/bootphon/AESRC/bin/evals/items).
-
-  - [The ABXpy Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module), is used for creating a new task and preprocessing, and calculate the distances necessary for task scores.
-
-  - [Score average](https://github.com/bootphon/AESRC/results/average), Calculate the average of ABxpy task scores.
+  - [abx score average](https://github.com/bootphon/AESRC/results/average), the average of ABxpy task scores for each accent.
 
 
