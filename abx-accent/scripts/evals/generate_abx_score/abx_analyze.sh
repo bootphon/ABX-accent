@@ -1,7 +1,11 @@
 #!/bin/bash
-#This for full run of the ABX pipeline in command line
+#SBATCH --partition=gpu
+#SBATCH --nodelist=puck5
 
-
+# loading modules and activating the right conda env
+source #your_source
+module load espeak
+conda activate abx
 #AESRC corpus
 declare -a accents=("American" "Japanese" "British" "Canadian" "Chinese" "Indian" "Korean" "Spanish" "Portuguese" "Russian")
 
