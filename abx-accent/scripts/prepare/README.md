@@ -8,9 +8,8 @@ Data preparation
   - `aesrc_speakers_list.txt`: contains list of all the female and male speakers for each accents.
   Example: American_M = ['G00007', 'G00550'...], for list of Male speakers for American accent that can be used to select directly the sublist uses for dev, test ...
   - `aesrc_dataset_split.py`: scripts used to generate a list of filenames according to the data length ( on this study we used 10 min for dev/test sets for ABXpy and 2min for adaptation).
-  
-- [Abkhazia](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia) : after the split step, we prepare it to get the standard format of Abkhazia.
-
 requires python>=3.6 instead.
+- [Abkhazia](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia) : after the split step, we prepare it to get the standard format of Abkhazia.
+requires on the [setup.py](https://github.com/bootphon/ABX-accent/edit/main/abx-accent/scripts/prepare/Setup.py)
 
 
