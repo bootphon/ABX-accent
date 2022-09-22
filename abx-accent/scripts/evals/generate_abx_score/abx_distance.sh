@@ -28,12 +28,5 @@ for accent in ${accents[@]};do
 
     # computing distances
     abx-distance $features $task $distance --normalization 1
-
-    # calculating the score
-    abx-score $task $distance $score
-
-    # collapsing the results
-    abx-analyze $score $task $analyze
-
 done
 
