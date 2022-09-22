@@ -49,7 +49,7 @@ The recommended installation on linux and macos is using [conda](https://docs.co
 Alternatively you may want to install it from sources. First clone
 this repository and go to its root directory. Then ::
 
-    `conda env create -n abx -f environment.yml
+     conda env create -n abx -f environment.yml
      source activate abx
      make install
      make test`
