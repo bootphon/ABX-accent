@@ -2,7 +2,7 @@ ABX-accent
 =============
 To get started the abx_accent project, you need two main steps: 
 
-- Prepare the development AESRC data.
+- Prepare the development AESRC dataset.
 - Evaluation software setup.
  
 Organisation
