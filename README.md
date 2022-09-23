@@ -71,9 +71,9 @@ References
 -----------
 - [1] Xian Shi, Fan Yu, Yizhou Lu, Yuhao Liang, Qiangze Feng, Daliang Wang, Yanmin Qian, and Lei Xie, “The accented english speech recognition challenge 2020: open datasets, tracks, baselines, results and methods,” in ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing       (ICASSP).IEEE, 2021, pp. 6918–6922.
   
--[2] Ewan Dunbar, Julien Karadayi, Mathieu Bernard, Xuan-Nga Cao, Robin Algayres, Lucas Ondel, Laurent Besacier, Sakriani Sakti, and Emmanuel Dupoux, “The zero resource speech challenge 2020: Discovering discrete subword and word units,” 2020.
+- [2] Ewan Dunbar, Julien Karadayi, Mathieu Bernard, Xuan-Nga Cao, Robin Algayres, Lucas Ondel, Laurent Besacier, Sakriani Sakti, and Emmanuel Dupoux, “The zero resource speech challenge 2020: Discovering discrete subword and word units,” 2020.
 
--[3] Ewan Dunbar, Mathieu Bernard, Nicolas Hamilakis, Tu Anh Nguyen, Maureen de Seyssel, Patricia Roz ́e, Morgane Rivi`ere, Eugene Kharitonov, and Emmanuel Dupoux, “The zero resource speech challenge 2021: Spoken language modelling,” 2021.
+- [3] Ewan Dunbar, Mathieu Bernard, Nicolas Hamilakis, Tu Anh Nguyen, Maureen de Seyssel, Patricia Roz ́e, Morgane Rivi`ere, Eugene Kharitonov, and Emmanuel Dupoux, “The zero resource speech challenge 2021: Spoken language modelling,” 2021.
 
 
 
