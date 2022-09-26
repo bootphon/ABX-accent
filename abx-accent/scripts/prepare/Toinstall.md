@@ -8,14 +8,16 @@
     - Run /tools/extras/install_srilm.sh.
     - Source /tools/env.sh.
 ```
--Searching for matplotlib
-  - Reading https://pypi.python.org/simple/matplotlib/
-  - Couldn't find index page for 'matplotlib' (maybe misspelled?)
-  - Scanning index of all packages (this may take a while)
-  - Reading https://pypi.python.org/simple/
-  - No local packages or download links found for matplotlib
-  - error: Could not find suitable distribution for Requirement.parse('matplotlib')
 
+-Searching for matplotlib
+
+  - Reading: https://pypi.python.org/simple/matplotlib/
+  - Couldn't find index page for 'matplotlib' (maybe misspelled?).
+  - Scanning index of all packages (this may take a while).
+  - Reading: https://pypi.python.org/simple/
+  - No local packages or download links found for matplotlib.
+  - error: Could not find suitable distribution for Requirement.parse('matplotlib').
+```
 - sudo pip3 install -U setuptools or pip install -U pip setuptools 
 - sudo pip3 install -U jinja2
 - sudo pip3 install phonemizer
@@ -24,3 +26,4 @@
 - sudo pip3 install argcomplete
 - python 3.8
 - h5py==2.10.0
+```
