@@ -10,5 +10,5 @@ Data
 **Data evals**
 
 - Item files : item files are in `item_files <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/item_files>`_.
-- ABX score : after evaluating the prepare data by using the Forced alignment files and the item files, get the ABXpy scores from `abx_score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score>`_ folder.
+- ABX score : after evaluating the prepare data by using the forced alignment files and the item files, get the ABXpy scores from `abx_score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score>`_ folder.
 - Average score : ABX scores average in this folder, `average_score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_score>`_.
