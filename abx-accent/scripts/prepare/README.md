@@ -10,6 +10,6 @@ Data preparation
   - `aesrc_dataset_split.py`: scripts used to generate a list of filenames according to the data length (on this study, we used 10 min for dev/test sets for ABXpy and 2 min for adaptation).
 Requires python>=3.6 instead.
 - [Abkhazia](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia) : after the split step, we prepare it to get the standard format of Abkhazia.
-requires on the [setup.py](https://github.com/bootphon/ABX-accent/edit/main/abx-accent/scripts/prepare/Setup.py)
+Requires on the [setup.py](https://github.com/bootphon/ABX-accent/edit/main/abx-accent/scripts/prepare/Setup.py).
 
 
