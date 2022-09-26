@@ -1,11 +1,13 @@
 - Install gawk : `sudo apt-get install gawk`
 - Install SRILM : Simply running `/tools/extras/install_srilm.sh` cannot install srilm automatically.
 - The right procedure is as follows.
-    - Download srilm package from http://www.speech.sri.com/projects/srilm/download.html.
+```
+    - Download srilm package from: http://www.speech.sri.com/projects/srilm/download.html.
     - Rename the package as “srilm.tgz”.
     - Copy the package to /tools.
     - Run /tools/extras/install_srilm.sh.
     - Source /tools/env.sh.
+```
 -Searching for matplotlib
   - Reading https://pypi.python.org/simple/matplotlib/
   - Couldn't find index page for 'matplotlib' (maybe misspelled?)
