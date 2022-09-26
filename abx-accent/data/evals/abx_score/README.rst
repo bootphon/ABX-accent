@@ -1,8 +1,9 @@
 **ABXpy score**
 ================
 
-Use the ABXpy package 
+Use the ABXpy package. 
 Organization
+============
 It is composed of 3 main modules and other submodules.
 
 - `Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_: is used for creating a new task and preprocessing.
