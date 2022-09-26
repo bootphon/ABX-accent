@@ -2,7 +2,7 @@
 ================
 
 Use the ABXpy package 
-Organisation
+Organization
 It is composed of 3 main modules and other submodules.
 
 - `Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_: is used for creating a new task and preprocessing.
@@ -12,7 +12,7 @@ We used across and within tasks, each one has his own results on each folder.
 
 - `Score module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_: is used for computing the score of a task.
 
-- `analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analysing the results.
+- `Analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analyzing the results.
  
 
 

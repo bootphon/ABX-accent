@@ -8,9 +8,9 @@ The first step was, the AESRC data splits on three sets: **test**, **dev** and *
 - **abx.csv** & **adapt.csv** : abx.csv for all files used for ABXpy et adapt.csv for all files used for adaptation, this global files contain the list of the filenames and their information that we used in our study from the AESRC dataset:
         
         - *filename* : name of the audio file name.
-        - *accent* : which accent bellow the filename from the ten American accents of AESRC dataset.
+        - *accent* : which accent bellows the filename from the ten American accents of AESRC dataset.
         - *study* : ABX or adaptation.
-        - *set* : dev or test(used for ABX), train(used for adaptation).
+        - *set* : dev or test (used for ABX), train (used for adaptation).
         - *speaker* : which speaker.
         - *gender* : Female or Male.
         
