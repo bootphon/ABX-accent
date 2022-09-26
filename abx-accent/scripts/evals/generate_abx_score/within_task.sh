@@ -1,7 +1,11 @@
 #!/bin/bash
-#
-# This is for the ABX task "On Phone" used for the AESRC corpus
-#
+#SBATCH --partition=gpu
+#SBATCH --nodelist=puck5
+
+# loading modules and activating the right conda env
+source #your_source
+module load espeak
+conda activate abx
 
 
 #AESRC corpus
@@ -12,7 +16,7 @@ results=$1
 abx="/abx"
 task_spec="-o phone -b speaker prev-phone next-phone"
 item_file="/item_file.item"
-phone="/abx_task1.abx"
+phone="/abx_within.abx"
 
 for accent in ${accents[@]};do
 
@@ -20,9 +24,9 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     #task
-    task_1="$output$phone";
+    task="$output$phone";
     
     which abx-task
-    abx-task $item $task_1 $task_spec -v
+    abx-task $item $task $task_spec -v
 
 done

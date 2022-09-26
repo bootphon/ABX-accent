@@ -1,8 +1,13 @@
 #!/bin/bash
+#SBATCH --partition=gpu
+#SBATCH --nodelist=puck5
 
-#
-# This is for the ABX task "on phone" used for the AESRC corpus
-#
+# loading modules and activating the right conda env
+source #your_source
+module load espeak
+conda activate abx
+
+
 
 #AESRC corpus
 declare -a accents=("American" "British" "Canadian" "Chinese" "Indian" "Japanese" "Korean" "Spanish" "Portuguese" "Russian")
@@ -20,10 +25,10 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     #task
-    task_1="$output$phone";
+    task="$output$phone";
     
     which abx-task
-    abx-task $item $task_1 $task_spec -v
+    abx-task $item $task $task_spec -v
 
 done
 

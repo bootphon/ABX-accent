@@ -1,7 +1,11 @@
 #!/bin/bash
-#This for full run of the ABX pipeline in command line
+#SBATCH --partition=gpu
+#SBATCH --nodelist=puck5
 
-
+# loading modules and activating the right conda env
+source #your_source
+module load espeak
+conda activate abx
 #AESRC corpus
 declare -a accents=("American" "Japanese" "British" "Canadian" "Chinese" "Indian" "Korean" "Spanish" "Portuguese" "Russian")
 
@@ -20,9 +24,9 @@ for accent in ${accents[@]};do
     #item_file
     item="$output$item_file";
     task="$output$phone";
-    distance="$output$distance_file";
+    analyze="$output$analyse_file";
     features="$output$features_file";
-    # computing distances
-    abx-distance $features $task $distance --normalization 1
-done
+    # collapsing the results
+    abx-analyze $score $task $analyze
 
+done
