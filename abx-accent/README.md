@@ -54,27 +54,16 @@ abx-accent/
 
 - [Prepare scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare), scripts used to prepare the dataset:
  
-<<<<<<< HEAD
   - [Data split scipts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/splits), after getting the AESRC dataset, we have to split it following three main steps:
    - sets split (test/dev/train): split this dataset of the ten accent has on training set, a dev and a test set, each containing different speakers.
    - speakers and gender split: balancing for male and female speakers, with six Female and six Male for (test/dev) and the rest for train set.
    - speech duration: 10 min for each speaker on (test and dev) sets, which is 2 hours of audio speech on total and that will be used for ABX. The dev and test set provide for each speaker a 2min adaptation set. The rest of the data used for train.
-=======
-  - [Data split scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/data_splits), after getting the AESRC dataset, we have to split it following three main steps:
-    - sets split (test/dev/train): split this dataset of the ten accent has on training set, a dev and a test set, each containing different speakers.
-    - speakers and gender split: balancing for male and female speakers with six Female and six Male for (test/dev) and the rest for train set.
-    - speech duration: 10 min for each speaker on (test and dev) sets which is 2 hours of audio speech on total and that will be used for ABX. The dev and test set provide for each speaker a 2min adaptation set.The rest of the data used for train.
->>>>>>> 680e6b4048522749dacd325591574fec6dbdf3a4
   - [Abkhazia software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia): provides a standard format for the dataset, used for ABXpy.
   
 - [Evals scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals), scripts used for the evaluation process:
  
   - [ABXpy package](https://github.com/bootphon/ABXpy), is used  for computing the scores of two tasks (across and within tasks) for (test/dev) sets.
-<<<<<<< HEAD
   - [abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the abx score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for training set.#TBD 
-=======
-  - [Abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/average_abx_score), is used to calculate the average of the abx score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for trainning set.#TBD 
->>>>>>> 680e6b4048522749dacd325591574fec6dbdf3a4
 
 
 **[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**, on this repository, we have also two main modules:
