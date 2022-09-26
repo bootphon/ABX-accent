@@ -63,7 +63,7 @@ abx-accent/
 - [Evals scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals), scripts used for the evaluation process:
  
   - [ABXpy package](https://github.com/bootphon/ABXpy), is used  for computing the scores of two tasks (across and within tasks) for (test/dev) sets.
-  - [ABX score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the ABX score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for training set.#TBD 
+  - [ABX score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the ABX score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for training set.
 
 
 **[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**, on this repository, we have also two main modules:
