@@ -1,9 +1,9 @@
 ABX-accent 
 ==============
-The ABX-accent, project based of the preparation and the evaluation of Accented English Speech Recognition Challenge (AESRC) data, using [ABXpy ](https://docs.cognitive-ml.fr/ABXpy/) for the evaluation,We provide in our github repository all the necessary elements for the preparation and evaluation process.
+The ABX-accent, project based on the preparation and the evaluation of Accented English Speech Recognition Challenge (AESRC) data, using [ABXpy ](https://docs.cognitive-ml.fr/ABXpy/) for the evaluation,We provide in our github repository all the necessary elements for the preparation and evaluation process.
 
 The ABXpy metric evaluate for a pair of sounds representations (A,B) from for example (”bap”,”bop”), the probability that the representation X of another instance of the sound ”bap” is closer to A than B. ABX error rate is computed by averaging over all the minimal pairs of phone trigram in the corpus. 
-In this benchmark we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
+In this benchmark, we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
 
 The Accented English Speech Recognition Challenge [AESRC](https://arxiv.org/abs/2102.10233) consists of ten  different regional accents: American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
 
@@ -12,9 +12,9 @@ Start the project
 All you need to get started to work on the development data and the evaluation of AESRC is :
 
 - [The scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) used for preparation and evaluation process.
-- [The results data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) after the preparation and the evaluation process.
+- [The result's data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) after the preparation and the evaluation process.
 
-The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on MacOS.
+The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on macOS.
 
 Organisation
 ------------
