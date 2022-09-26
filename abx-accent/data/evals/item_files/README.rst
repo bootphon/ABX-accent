@@ -5,10 +5,10 @@ Scripts used are on this `section <https://github.com/bootphon/AESRC/bin/evals/i
 
 Item files for :
 
-- dev : Contains the item `dev_accent_item.item` files for dev set.
+- dev : contains the item `dev_accent_item.item` files for dev set.
   Example : dev_american_item.item.
 
-- test : Contains the item `test_accent_item.item` files for test set.
+- test : contains the item `test_accent_item.item` files for test set.
   Example : test_american_item.item.
 
 Item file content example:
