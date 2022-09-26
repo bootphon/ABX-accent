@@ -39,7 +39,7 @@ The recommended installation on Linux and macOS is using [conda](https://docs.co
   `conda install -c coml abx`
 
 Alternatively, you may want to install it from sources. First clone
-this repository and go to its root directory. Then ::
+this repository and go to its root directory. Then :
 
      conda env create -n abx -f environment.yml
      source activate abx
