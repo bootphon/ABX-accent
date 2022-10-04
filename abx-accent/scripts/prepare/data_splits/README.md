@@ -7,8 +7,9 @@ How to split the data?
 
 run the script `python3 aesrc_gender_split.py`on your dataset  to get the Male/Female lists.
 
-  -`input : dataset path`.
-  -`output :  an output file`, with all the sublist Male and Female for each accent.
+  - `input : dataset path`.
+  - `output :  an output file`, with all the sublist Male and Female for each accent.
+  
 see the [aesrc_speakers_list.txt]() for the lists we got after the split.
 
 - Data split process:
