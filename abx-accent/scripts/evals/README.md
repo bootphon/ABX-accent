@@ -8,9 +8,9 @@ Organisation
 The main modules and submodules.
 - [Item files](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_item_files) : generate the item files that will be used on ABX.
     - `aesrc_item.py` : scripts used to generate an ABX item file from the AESRC corpus.
+
 - [H5features](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_abx_score/h5features): the features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`.
-    - `generate_features_files.py`, generate the `h5_file.h5f`file on each input dataset.  
-        
+    - `generate_features_files.py`, generate the `h5_file.h5f`file on each input dataset.        
 - [Task module](https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module) : is used for creating a new task and preprocessing.
     - [across task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/across_task.sh) :`within_task.sh` to generate the across task file using the item file.
     - [within task](https://github.com/bootphon/ABX-accent/blob/main/abx-accent/scripts/evals/generate_abx_score/within_task.sh) : `within_task.sh` to generate the within task file using the item file.
@@ -47,6 +47,37 @@ this repository and go to its root directory. Then :
      make install
      make test
 
+     - item files: 
+      run `python3 aesrc_item.py input output`
+      input:alignment_file corpus_dir
+      output:alignment_file
+      
+     - features files:
+     run `python3 generate_features_files.py input output`
+     input:feats.scp,
+     output:h5_file.h5f
+     
+     - ABX tasks
+     run `./across_task.sh`,`./within_task.sh`.
+     input:
+     output:abx_across.abx,abx_within.abx
+     
+     - ABX distance/analyze/score
+     run `./abx_score.sh`,`./abx_distance.sh`,`./abx_analyze.sh`,
+     input:h5_file.h5f",abx_task,
+     output:distance.distance
+     
+     input:,abx_task,distance.distance
+     output:score.score
+     
+     input:score.score,abx_task,
+     output:task.csv
+     note: abx_task:abx_across and abx_within
+     
+     - ABX score average
+     run `python3 `
+     input:alignment_file corpus_dir
+     output:alignment_file
+     
 
-    
 
