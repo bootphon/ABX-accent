@@ -67,17 +67,17 @@ this repository and go to its root directory. Then :
      input:h5_file.h5f",abx_task,
      output:distance.distance
      
-     input:,abx_task,distance.distance
+     input:abx_task,distance.distance
      output:score.score
      
-     input:score.score,abx_task,
+     input:score.score,abx_task
      output:task.csv
      note: abx_task:abx_across and abx_within
      
      - ABX score average
-     run `python3 `
-     input:alignment_file corpus_dir
-     output:alignment_file
+     run `python3 average_abx_score.py`
+     input:task_within task_across 
+     output:within_average_score across_average_score
      
 
 
