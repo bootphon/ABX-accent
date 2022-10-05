@@ -63,14 +63,14 @@ abx-accent/
 - [Evals scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals), scripts used for the evaluation process:
  
   - [ABXpy package](https://github.com/bootphon/ABXpy), is used  for computing the scores of two tasks (across and within tasks) for (test/dev) sets.
-  - [ABX score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the ABX score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for training set.#TBD 
+  - [ABX score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average), is used to calculate the average of the ABX score for each task (across/within). This is using to compare between the dev/test average for each task and the other process used for training set.
 
 
 **[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**, on this repository, we have also two main modules:
 
 - [Data prepare](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare)
 
-  - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`)#TBD, for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
+  - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`), for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
 
   - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conformed to Kaldi’s input format.
 
