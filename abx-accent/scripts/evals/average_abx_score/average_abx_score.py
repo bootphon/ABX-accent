@@ -8,10 +8,10 @@ import pandas as pd
 
 task_within = sys.argv[1]
 task_across = sys.argv[2]
-within_task_output = sys.argv[3]
-across_task_output = sys.argv[4]
+within_average_score = sys.argv[3]
+across_average_score = sys.argv[4]
 
-def average_task_within(task_within, task_across, within_task_output):
+def average_task_within(task_within, task_across, within_average_score):
     data = [line.strip().split(" ") for line in  open(task_within, 'r', encoding="utf8")]
     total_sum = 0
     n_lines = 0
@@ -38,7 +38,7 @@ def average_task_within(task_within, task_across, within_task_output):
     mean_across = total_sum_across / total_n_across
     print("mean_across: ",mean_across)
 
-    f = open(within_task_output,"w")
+    f = open(within_average_score,"w")
     f.write("{")
     f.write("\nwithin: ")
     f.write(str(mean_within))
@@ -48,7 +48,7 @@ def average_task_within(task_within, task_across, within_task_output):
     f.write(" \n}")
     
     f.close()
-def average_task_across(task_file, across_task_output):
+def average_task_across(task_file, across_average_score):
     data = [line.strip().split(" ") for line in  open(task_file, 'r', encoding="utf8")]
     total_sum = 0
     n_lines = 0 
@@ -62,7 +62,7 @@ def average_task_across(task_file, across_task_output):
     mean = total_sum / total_n
     print("mean: ",mean)
     
-    f = open(across_task_output,"w")
+    f = open(across_average_score,"w")
     f.write("within : { \n")
     f.write(str(mean))
     f.write(" \n}")
@@ -75,12 +75,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("task_within", help="within task file")
     parser.add_argument("task_across", help="across task file")
-    parser.add_argument('within_task_output')
-    parser.add_argument('across_task_output')
+    parser.add_argument('within_average_score')
+    parser.add_argument('across_average_score')
     parser.parse_args()
     args, leftovers = parser.parse_known_args()
 
-    average_task_across(args.task_within, args.within_task_output)
-    average_task_within(args.task_within, args.task_across, args.across_task_output)
+    average_task_across(args.task_within, args.within_average_score)
+    average_task_within(args.task_within, args.task_across, args.across_average_score)
 
 
