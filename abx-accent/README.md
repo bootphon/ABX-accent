@@ -59,6 +59,7 @@ abx-accent/
    - sets split (test/dev/train): split this dataset of the ten accent has on training set, a dev and a test set, each containing different speakers.
    - speakers and gender split: balancing for male and female speakers, with six Female and six Male for (test/dev) and the rest for train set.
    - speech duration: 10 min for each speaker on (test and dev) sets, which is 2 hours of audio speech on total and that will be used for ABX. The dev and test set provide for each speaker a 2 min adaptation set. The rest of the data used for train.
+   - ![](pictures/aesrc2.png)
   - [Abkhazia's software](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia): provides a standard format for the dataset, used for ABXpy.
   
 - [Evals scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals), scripts used for the evaluation process:
@@ -73,7 +74,6 @@ abx-accent/
 
   - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`), for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
   
-![](pictures/aesrc2.png)
 
   - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conformed to Kaldi’s input format.
 
