@@ -73,7 +73,7 @@ abx-accent/
 
   - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`), for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
   
-![](pictures/aesrc.png)
+![](pictures/aesrc2.png)
 
   - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conformed to Kaldi’s input format.
 
