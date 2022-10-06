@@ -9,5 +9,5 @@ Calculate the average of ABX task scores:
 
 Example:
 
-across : { 0.6398370918533675 }
-within : { 0.7665211843399248 }
+``across : { 0.6398370918533675 }
+within : { 0.7665211843399248 }``
