@@ -2,7 +2,7 @@
 Data evaluation
 ===============
    
-Organisation
+Organization
 -------------
 
 The main modules and submodules:
