@@ -4,3 +4,6 @@
 [submodule "abx-accent/scripts/evals/abx/ABXpy/ABXpy"]
 	path = abx-accent/scripts/evals/abx/ABXpy/ABXpy
 	url = https://github.com/bootphon/ABXpy.git
+[submodule "abx-accent/scripts/evals/ABXpy/ABXpy"]
+	path = abx-accent/scripts/evals/ABXpy/ABXpy
+	url = https://github.com/bootphon/ABXpy.git
