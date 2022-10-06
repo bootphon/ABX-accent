@@ -3,6 +3,7 @@ ABX-accent
 To get started in the abx_accent project, you need two main steps: 
 
 - Prepare the development AESRC dataset.
+![](images/aesrc.png)
 - Evaluation software setup.
  
 Organisation
@@ -76,10 +77,10 @@ abx-accent/
 
   - [Forced Alignment](https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html), use the dataset after the preparation to do phone-level forced alignment. If everything went right, you should be able to find your alignment in `corpus/align/alignments.txt`.
 
-- [Data evals](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparation of the dataset on (test/dev) sets, we used ABXpy to evaluate the prepared dataset.
+- [Data evals](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparation of the dataset on (test/dev) sets, we used ABX to evaluate the prepared dataset.
 
   - [The ABXpy task](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score), contains two subfolders (across_task /within_task) each contains the abx task result.
 
-  - [Abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_abx_score), the average of ABXpy task scores for each accent.
+  - [Abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_abx_score), the average of ABX task scores for each accent.
 
 
