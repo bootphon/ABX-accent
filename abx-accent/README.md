@@ -72,19 +72,19 @@ abx-accent/
 
 **[Data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data)**, on this repository, we have also two main modules:
 
-- [Data prepare](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare)
+- [``Data prepare``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare)
 
-  - [Data split](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`), for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
+  - [``Data split``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits), to resume all the splits, you have two general files (`abx_files.csv` and `adapt_files.csv`), for each one you have the list of the filename, with it's own information   (accent: one of the ten accents, study:abx or adapt, speaker: which speaker, gender:Male or Female), you can use to rebuild the sets used to get the results on this repository.
   
 
-  - [Abkhazia](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conformed to Kaldi’s input format.
+  - [``Abkhazia``](https://github.com/bootphon/abkhazia/tree/aesrc) uses the sets after the split step to obtain the standard format for the dataset and then validate the corpus to check that it is conformed to Kaldi’s input format.
 
-  - [Forced Alignment](https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html), use the dataset after the preparation to do phone-level forced alignment. If everything went right, you should be able to find your alignment in `corpus/align/alignments.txt`.
+  - [``Forced Alignment``](https://docs.cognitive-ml.fr/abkhazia/abkhazia_force_align.html), use the dataset after the preparation to do phone-level forced alignment. If everything went right, you should be able to find your alignment in `corpus/align/alignments.txt`.
 
-- [Data evals](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparation of the dataset on (test/dev) sets, we used ABX to evaluate the prepared dataset.
+- [``Data evals``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals), after preparation of the dataset on (test/dev) sets, we used ABX to evaluate the prepared dataset.
 
-  - [The ABXpy task](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score), contains two subfolders (across_task /within_task) each contains the abx task result.
+  - [``The ABXpy task``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score), contains two subfolders (across_task /within_task) each contains the abx task result.
 
-  - [Abx score average](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_abx_score), the average of ABX task scores for each accent.
+  - [``Abx score average``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_abx_score), the average of ABX task scores for each accent.
 
 
