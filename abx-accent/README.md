@@ -6,7 +6,7 @@ To get started in the abx_accent project, you need two main steps:
 
 - Evaluation software setup.
  
-Organisation
+Organization
 ------------
 
 The main modules and other submodules.
