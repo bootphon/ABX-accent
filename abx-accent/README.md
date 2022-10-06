@@ -16,13 +16,19 @@ abx-accent/
 │   └── prepare/
 │   │   └── abkhazia
 │   │   └── data_splits/
+│   │   │   └── aesrc_gender_split.py
 │   │   │   └── aesrc_dataset_split.py
+│   │   │   └── aesrc_speakers_list.txt
 │   └── evals/
 │   │   └── generate_item_files/
 │   │   │   └── aesrc_item.py
 │   │   └── generate_abx_score/
-│   │   │   └── ABXpy/
-│   │   │   │   └── ABXpy_env
+│   │   │   └── ABXpy/ABXpy
+│   │   │   └── across_task.sh
+│   │   │   └── within_task.sh
+│   │   │   └── abx_score.sh
+│   │   │   └── abx_distance.sh
+│   │   │   └── abx_analyze.sh
 │   │   │   └── h5features/
 │   │   │   │   └── generate_features_files.py
 │   │   └── README.rst
