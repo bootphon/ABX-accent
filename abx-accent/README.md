@@ -3,7 +3,7 @@ ABX-accent
 To get started in the abx_accent project, you need two main steps: 
 
 - Prepare the development AESRC dataset.
-![](pictures/aesrc.png)
+
 - Evaluation software setup.
  
 Organisation
