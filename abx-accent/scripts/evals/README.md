@@ -50,34 +50,40 @@ this repository and go to its root directory. Then :
      - item files: 
       run `python3 aesrc_item.py input output`
       input:alignment_file corpus_dir
-      output:alignment_file
+      output:item_file
       
      - features files:
      run `python3 generate_features_files.py input output`
-     input:feats.scp,
+     input:feats.scp
      output:h5_file.h5f
      
      - ABX tasks
-     run `./across_task.sh`,`./within_task.sh`.
-     input:
-     output:abx_across.abx,abx_within.abx
+     run `./across_task.sh input output`, `./within_task.sh input output`
+     input:item_file, task_spec*
+     output:(abx_task*)abx_across.abx, abx_within.abx
      
-     - ABX distance/analyze/score
-     run `./abx_score.sh`,`./abx_distance.sh`,`./abx_analyze.sh`,
-     input:h5_file.h5f",abx_task,
-     output:distance.distance
+     - ABX distance
+     run `./abx_score.sh input output`
+     input: h5_file.h5f, abx_task, --normalization 1
+     output: distance.distance
      
-     input:abx_task,distance.distance
-     output:score.score
+     - ABX score
+     run `./abx_distance.sh input output`
+     input: abx_task, distance.distance
+     output: score.score
      
-     input:score.score,abx_task
-     output:task.csv
-     note: abx_task:abx_across and abx_within
+     - ABX analyze
+     run `./abx_analyze.sh input output`
+     input: score.score, abx_task
+     output: task.csv
      
      - ABX score average
-     run `python3 average_abx_score.py`
+     run `python3 average_abx_score.py input output`
      input:task_within task_across 
      output:within_average_score across_average_score
      
 
-
+     abx_task* : abx_across and abx_within
+     across task_spec*: -o phone -a speaker -b prev-phone next-phone
+     within task_spec*: -o phone -b speaker prev-phone next-phone
+    
