@@ -35,12 +35,12 @@ abx-accent/
 │   │   └── average_abx_score/
 │   │   │   │   └── average_abx_score.py
 │   └── README.rst
-├── data
+├── data/
 │   └── prepare/
 │   │   └── data_splits/
 │   │   │   └── abx_files.csv
 │   │   │   └── adapt_files.csv
-│   │   └── abkhazia
+│   │   └── abkhazia/
 │   │   │   └── forced_alignment
 │   └── evals/
 │   │   └── item_files/
