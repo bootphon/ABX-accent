@@ -5,7 +5,7 @@ Data
 
 - ``Data splits`` : split the AESRC raw data, here are the results, `data_splits <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_.
 - *Abkhazia* : get the results by following `this step <https://github.com/bootphon/abkhazia/tree/aesrc/abkhazia/corpus/prepare>`_.
-- Forced alignment : find the result files in the `forced_alignment <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/forced_alignment>`_ folder.
+- ``*Forced alignment*`` : find the result files in the `forced_alignment <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/forced_alignment>`_ folder.
 
 **Data evals**
 
