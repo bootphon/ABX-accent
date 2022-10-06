@@ -16,7 +16,7 @@ All you need to get started to work on the development data and the evaluation o
 
 The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on macOS.
 
-Organisation
+Organization
 ------------
 
 ```
