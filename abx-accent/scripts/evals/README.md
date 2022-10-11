@@ -59,7 +59,7 @@ this repository and go to its root directory. Then :
      output:h5_file.h5f
      
      - ABX tasks
-     run `./across_task.sh input output`, `./within_task.sh input output`
+     run `./across_task.sh input output` or `./within_task.sh input output`
      input:item_file, task_spec*
      output:abx_task*
      
@@ -75,17 +75,16 @@ this repository and go to its root directory. Then :
      
      - ABX analyze
      run `./abx_analyze.sh input output`
-     input: score.score, abx_task
+     input: score.score, abx_task*
      output: task.csv*
      
      - ABX score average
      run `python3 average_abx_score.py input output`
-     input:task_within or task_across 
-     output:within_average_score or across_average_score
+     input:task.csv* 
+     output:task_average_score.txt* 
      
 
-     abx_task* : abx_across.abx or abx_within.abx
-     across task_spec* : -o phone -a speaker -b prev-phone next-phone
-     within task_spec* : -o phone -b speaker prev-phone next-phone
-     task.csv* : within_task.csv(if abx_within.abx is used), across_task.csv(if abx_across.abx is used).
-    
+     abx_task* : abx_across.abx or abx_within.abx.
+     task_spec* : -o phone -a speaker -b prev-phone next-phone(across task) or -o phone -b speaker prev-phone next-phone (within).
+     task.csv* : within_task.csv(if abx_within.abx is used) or across_task.csv(if abx_across.abx is used).
+     task_average_score.txt* : within_average_score.txt or across_average_score.txt.
