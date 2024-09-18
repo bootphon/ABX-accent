@@ -1,4 +1,5 @@
 '''
+Author: Manel KHENTOUT
 Project: ABX-accent
 Corpus: AESRC
 2022
