@@ -1,6 +1,6 @@
 ABX-accent 
 ==============
-The ABX-accent, project based on the preparation and the evaluation of Accented English Speech Recognition Challenge (AESRC) dataset[1], using ABXpy for the evaluation [2][3]. We provide in our GitHub repository all the necessary elements for the preparation and evaluation process.
+The *ABX-accent* project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using ABXpy for evaluation [2][3]. This repository provides all the necessary tools and resources to carry out both dataset preparation and evaluation.
 
 [The ABXpy](https://docs.cognitive-ml.fr/ABXpy/)  metric evaluate for a pair of sounds representations (A,B) from for example (”bap”,”bop”), the probability that the representation X of another instance of the sound ”bap” is closer to A than B. ABX error rate is computed by averaging over all the minimal pairs of phone trigram in the corpus. 
 In this benchmark, we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
