@@ -17,15 +17,15 @@ The first step was to split the AESRC data into three sets: *test, dev, and trai
 
 - **filename**: Name of the audio file.
 
-- accent: The accent associated with the filename, from the ten American accents in the AESRC dataset.
+- **accent**: The accent associated with the filename, from the ten American accents in the AESRC dataset.
 
-- study: Either ABX or adaptation.
+- **study**: Either ABX or adaptation.
 
-- set: dev or test (used for ABX), train (used for adaptation).
+- **set**: dev or test (used for ABX), train (used for adaptation).
 
-- speaker: The speaker identifier.
+- **speaker**: The speaker identifier.
 
-- gender: Female or Male.
+- **gender**: Female or Male.
 
 Example:
   
@@ -36,6 +36,6 @@ G00473S1202.wav   American       adapt      dev         G00473    Female
 ===============  ==========  ==========  ==========  ==========  ==========
 
 
-- **speakers folder** : List of the Male and Female speakers we used to get the scores shows in this study.
+- **speakers folders** : A list of the male and female speakers used used to obtain the scores shown in this study.
 
-- **filenames folder** : List of file names used for ABX and Adaptation for dev and test set.
+- **filenames folder** : A List of filenames used for ABX and Adaptation in the dev and test sets.
