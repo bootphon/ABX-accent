@@ -1,20 +1,31 @@
 ABX-accent 
 ==============
-The *ABX-accent* project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using ABXpy for evaluation [2][3]. This repository provides all the necessary tools and resources to carry out both dataset preparation and evaluation.
+The **ABX-accent** project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using ABXpy for evaluation [2][3]. This repository provides all the necessary tools and resources to carry out both dataset preparation and evaluation.
 
-[The ABXpy](https://docs.cognitive-ml.fr/ABXpy/)  metric evaluate for a pair of sounds representations (A,B) from for example (”bap”,”bop”), the probability that the representation X of another instance of the sound ”bap” is closer to A than B. ABX error rate is computed by averaging over all the minimal pairs of phone trigram in the corpus. 
-In this benchmark, we focus on the harder ABX across speaker metric, which uses X instances from a different speaker than the one of the pair(A,B).
+What is ABX Evaluation?
+=======================
 
-[The Accented English Speech Recognition Challenge](https://arxiv.org/abs/2102.10233) consists of ten  different regional accents: American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
+[The ABXpy](https://docs.cognitive-ml.fr/ABXpy/)  metric evaluates whether a representation **X** of a speech unit (e.g., the word “bap”) is closer to a same-category example **A** (also “bap”) than to a different-category example **B** (e.g., “bop”). The ABX error rate is calculated by averaging the classification errors over all minimal phoneme trigrams in the corpus.
 
-Start the project
+This benchmark focuses on the more challenging **ABX across-speaker** task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
+
+About the Dataset
+=================
+
+The **[Accented English Speech Recognition Challenge](https://arxiv.org/abs/2102.10233)** dataset includes recordings from ten different regional accents: 
+American, British, Canadian, Chinese, Indian, Japanese, Korean, Portuguese, Spanish, Russian.
+
+Getting Started
 -------------------
-All you need to get started to work on the development data and the evaluation of AESRC is :
+To begin working with the AESRC development data and run evaluations, you will find the following resources in the repository:
 
-- [The scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) used for both the preparation and the evaluation process.
-- [The result's data](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data) after the preparation and the evaluation process.
+- To get the dataset, please contact :XXX
+- [Scripts for both data preparation and evaluation](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) .
+- [The evaluation result](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data).
 
-The setup procedure is described for Linux. It has been tested on several distributions (Ubuntu 16.04, Debian Jessie and CentOS 6). It should work as well on macOS.
+Setup instructions are provided for Linux systems, and the process has been successfully tested on various distributions, including **Ubuntu 16.04, Debian Jessie**, and **CentOS 6**. It should also work on macOS with minimal modifications.
+
+
 
 Organization
 ------------
