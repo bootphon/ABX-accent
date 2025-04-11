@@ -1,7 +1,15 @@
 Data evaluation
 ===============
-To evaluate the Data after the preparation (see `this section <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare>`_), we move to the evaluation part and for that, we have steps:
+To evaluate the data after the preparation stage (see `the Data Preparation section <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare>`_), we follow these steps: 
 
-- ``Item_files``, that we need for ABXpy.
-- ``ABXpy tasks``, we generated the score for both across and within tasks.
-- ``Average score``, we calculate the abx score average for each accent of each set.
+- ``Item_files``:
+Required input files for the ABXpy evaluation.
+
+- ``ABXpy tasks``:
+We compute the scores for both across-speaker and within-speaker tasks using ABXpy.
+
+- ``Average scores``:
+The average ABX score is calculated for each accent and for each dataset (dev/test).
+
+
+
