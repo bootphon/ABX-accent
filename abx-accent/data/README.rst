@@ -1,14 +1,20 @@
 Data
 =======
 
-**Data prepare**
+**Data preparation**
 
-- ``Data splits`` : split the AESRC raw data, here are the results, `data_splits <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/data_splits>`_.
-- ``Abkhazia`` : get the results by following `this step <https://github.com/bootphon/abkhazia/tree/aesrc/abkhazia/corpus/prepare>`_.
-- ``Forced alignment`` : find the result files in the `forced_alignment <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/prepare/forced_alignment>`_ folder.
+- ``Data splits`` :
+The `data_splits/` folder contains the results of splitting the raw AESRC dataset into training, development, and test sets.
+- ``Abkhazia`` : 
+This step processes the split data into a standard format compatible with ABXpy. Follow the instructions in the `abkhazia/` folder to generate the formatted corpus.
+- ``Forced alignment`` : 
+Phone-level alignments are generated using the Abkhazia toolkit. The output files are located in the `forced_alignment/` directory.
 
-**Data evals**
+**Data evaluation**
 
-- ``Item files`` : item files are in `item_files <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/item_files>`_.
-- ``ABX score`` : after evaluating the prepare data by using the forced alignment files and the item files, get the ABXpy scores from `abx_score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/abx_score>`_ folder.
-- ``Average score`` : ABX scores average in this folder, `average_score <https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data/evals/average_score>`_.
+- ``Item files`` : 
+ll item files required for ABX evaluations are available in the `item_files/` folder, organized by dataset `(dev_set and test_set)`.
+- ``ABX scores`` : 
+After running the evaluation using the prepared data and forced alignment outputs, ABXpy scores are saved in the `abx_score/` folder.
+- ``Average score`` : 
+Final ABX average scores per task and accent are stored in the `abx_score_average/` folder.
