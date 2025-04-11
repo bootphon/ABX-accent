@@ -75,5 +75,5 @@ References
 
 - [3] Ewan Dunbar, Mathieu Bernard, Nicolas Hamilakis, Tu Anh Nguyen, Maureen de Seyssel, Patricia Roz ́e, Morgane Rivi`ere, Eugene Kharitonov, and Emmanuel Dupoux, “The zero resource speech challenge 2021: Spoken language modelling,” 2021.
 
-- paper?
+
 
