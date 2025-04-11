@@ -1,29 +1,28 @@
 **ABXpy score**
 ================
 
-Use the ABXpy package. 
+We use the ABXpy package for evaluating model performance on minimal pair discrimination tasks.
 
 Organization
 ============
 
-It is composed of 3 main modules and other submodules.
+The package is organized into three main modules, along with several submodules:
 
-- `Task module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_: is used for creating a new task and preprocessing.
-We used across and within tasks, each one has his own results on each folder.
+- `Task Module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#task-module>`_:
+Used to create new tasks and preprocess the data.
+In our setup, we use both across-speaker and within-speaker tasks, each producing results in their respective folders.
 
-- `Distance package <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_: is used for calculating the distances necessary for the score calculation.
+- `Distance Module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.distances.html>`_:
+Calculates the distances between features, which are necessary for computing the ABX score.
 
-- `Score module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_: is used for computing the score of a task.
+- `Score Module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#score-module>`_: 
+Computes the ABX score based on the generated tasks and calculated distances.
 
-- `Analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: is used for analyzing the results.
- 
+- `Analyze module <https://docs.cognitive-ml.fr/ABXpy/ABXpy.html#analyze-module>`_: 
+Provides tools to analyze the evaluation results and summarize performance.
 
+``Across task`` example:
 
-
-
-across task example:
-
- 
 
 ===============  ===========  ==========  ===========  ==============  ==========  ====== 
      phone_1      speaker_1     phone_2    speaker_2      by              score      n
@@ -32,7 +31,7 @@ across task example:
 ===============  ===========  ==========  ===========  ==============  ==========  ======
 
 
-within task example:
+``Within task`` example:
 
 ===============  ==========  ========================  =========  ==========   
      phone_1      phone_2           by                   score        n         
