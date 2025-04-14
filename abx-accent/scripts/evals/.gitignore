@@ -1,34 +1,33 @@
-# Mac specific files
-.DS_Store
-
-# Spyder IDE files
-.spyderproject
-.spyderworkspace
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
-bin/
 build/
 develop-eggs/
 dist/
+downloads/
 eggs/
+.eggs/
 lib/
 lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.eggs/
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
 
 # Installer logs
 pip-log.txt
@@ -37,36 +36,32 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.coverage*
-coverage.xml
+.coverage
+.coverage.*
 .cache
 nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-# Translations
-*.mo
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Rope
-.ropeproject
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# Django stuff:
-*.log
-*.pot
-
-# pyTest cache
-test/__pycache__
-
-# Emacs
-*~
-\#*\#
-
-# Cythonized output
-ABXpy/distances/metrics/dtw/*.c
-ABXpy/distances/metrics/install/*.c
-
-# Example items
-examples/example_items/data.*
+# Project specific
+.DS_Store
