@@ -1,28 +1,28 @@
-# Ignore files generated during configuration
+# Abkhazia specific files
 /abkhazia/share/abkhazia.conf
 /abkhazia/share/cmudict.0.7a
 /abkhazia/share/cmd.sh
 /abkhazia/share/path.sh
+/kaldi/
+/egs/acoustic_model_buckeye/
+/egs/align_childes_brent/
+/egs/align_childes_brent_1percent/
+/egs/exemple_buckeye/
+/egs/triphones.item
+/exemple/
+/tmpdir/
+/debug/
 
-# ignore builded documentation
-/docs/build/*
+# Documentation
+/docs/build/
+/docs/_build/
 /docs/html
 /docs/Makefile
 
-# MacOS .DS_Store
-*.DS_Store
-
-# Some temporary files
-*~
-
-# Standard Python gitignore
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-# C extensions
 *.so
-# Distribution / packaging
 .Python
 env/
 build/
@@ -39,42 +39,27 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-# PyInstaller
-# Usually these files are written by a python script from a template
-# before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-# Unit test / coverage reports
+
+# Testing
 htmlcov/
 .tox/
 .coverage
 .cache
 nosetests.xml
 coverage.xml
-# Translations
+lm_test/
+test/lm/
+
+# Temp files
+*~
+\#*
+*.log
+*.DS_Store
+
+# Other
+pip-log.txt
+pip-delete-this-directory.txt
 *.mo
 *.pot
-# Django stuff:
-*.log
-# Sphinx documentation
-docs/_build/
-# PyBuilder
-target/
-# emacs
-\#*
-*~
-lm_test/*
-test/lm/*
-/tmpdir/
-/exemple/*
-egs/align_childes_brent/
-egs/align_childes_brent_1percent/
-egs/exemple_buckeye/*
-/kaldi/
-debug/
-/abkhazia/share/abkhazia.conf
-/egs/acoustic_model_buckeye/*
-/egs/triphones.item
+*.manifest
+*.spec
