@@ -58,9 +58,8 @@ deploy-doc:
     - sphinx-build doc build/doc
     - scp -r build/doc/* cognitive-ml.fr:/var/www/docs.cognitive-ml.fr/ABXpy
 
-# abx package available on conda with "conda install -c coml
-# abx". Build and upload the package only on new git tags or
-# manual triggers.
+# abx package available on conda with "conda install -c coml abx"
+# Build and upload the package only on new git tags or manual triggers.
 deploy-conda-linux:
   stage: deploy
   only:
