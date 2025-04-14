@@ -1,7 +1,16 @@
-*.pyc
+# Python
 __pycache__/
+*.py[cod]
+*.so
 build/
 dist/
+*.egg-info/
+
+# IDE
 .idea/
+.vscode/
+*.sublime-*
+
+# OS specific
 .DS_Store
-*.so
+Thumbs.db
