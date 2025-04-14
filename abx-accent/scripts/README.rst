@@ -1,9 +1,6 @@
+# ABX-accent Scripts
 
-ABX-accent scripts
-==================
+The project consists of two main modules:
 
-The main modules are:
-
-- **prepare** : contains submodules that used to prepare the dataset.
-
-- **evals** : contains submodules used to evaluate the dataset.
+- **prepare**: Contains submodules used to prepare the dataset
+- **evals**: Contains submodules used to evaluate the dataset
