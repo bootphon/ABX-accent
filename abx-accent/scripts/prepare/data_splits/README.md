@@ -1,30 +1,33 @@
-How to split the data?
-=====================
-- Prepare thet dataset (AESRC).
-- Copy the dataset to the work folder.
+# How to Split the Data
 
-- Gender split process:
+## Preparation
+1. Prepare the AESRC dataset
+2. Copy the dataset to the work folder
 
-run the script `python3 aesrc_gender_split.py`on your dataset  to get the Male/Female lists.
+## Gender Split Process
+1. Run the script to split the dataset by gender:
+   ```
+   python3 aesrc_gender_split.py <dataset_path>
+   ```
+   - **Input**: Dataset path
+   - **Output**: An output file containing Male and Female sublists for each accent
 
-  - `input : dataset path`.
-  - `output :  an output file`, with all the sublist Male and Female for each accent.
-  
-see the [aesrc_speakers_list.txt]() for the lists we got after the split.
+You can see the [aesrc_speakers_list.txt]() for the lists we obtained after the split.
 
-- Data split process:
+## Data Split Process
+1. Create two folders:
+   - `derived_data_10`: Contains files with 10 minutes per speaker (total duration of 2 hours)
+   - `derived_data_2`: Contains files with 2 minutes per speaker
 
-  - creat folder `derived_data_10`: 10 min for each speaker, it contains the results files, with total duration of 2h.
-  - creat folder `derived_data_2`: 2 min for each speaker.
-  - run the script `python3 aesrc_dataset_split.py dataset_path duration`.
+2. Run the dataset splitting script:
+   ```
+   python3 aesrc_dataset_split.py <dataset_path> <duration>
+   ```
+   - **Input**: 
+     - Dataset path
+     - Duration (in seconds): 600 for 10 min/speaker or 120 for 2 min/speaker
+   - **Output**: Audio files with specified duration per speaker
 
-  - split the dataset on 10 min for each speaker to get total 2h of speech (1h audio for Male and 1h for Female speech) for test and dev set.
-  - split the rest of the dataset on 2 min for each speaker to get total 
+3. First, split the dataset to get 10 minutes for each speaker (total 2 hours: 1 hour for male speakers and 1 hour for female speakers) for test and dev sets
 
-From the rest files, re-run the script to get files with 2 min.
-
-  - `input: dataset path, duration*`
-  - `output: audio files with total duration 10 min/spk or 2 min/spk`.
-
-
-*duration : 10 min/spk => 600sec and 2 min/spk=>120sec/spk
+4. Then, from the remaining files, run the script again to get files with 2 minutes per speaker
