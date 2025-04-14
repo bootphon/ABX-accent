@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=gpu
-#SBATCH --nodelist=puck5
+#SBATCH --nodelist=your-node-name
 
 # loading modules and activating the right conda env
 source #your_source
