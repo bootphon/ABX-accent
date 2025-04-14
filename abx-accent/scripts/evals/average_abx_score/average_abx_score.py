@@ -1,86 +1,96 @@
-'''
+#!/usr/bin/env python
+"""
 Project: ABX-accent
 Corpus: AESRC
 2022
-'''
-#!/usr/bin/env python
-import pandas as pd 
+"""
 
-task_within = sys.argv[1]
-task_across = sys.argv[2]
-within_average_score = sys.argv[3]
-across_average_score = sys.argv[4]
+import argparse
+import pandas as pd
+import sys
 
-def average_task_within(task_within, task_across, within_average_score):
-    data = [line.strip().split(" ") for line in  open(task_within, 'r', encoding="utf8")]
-    total_sum = 0
-    n_lines = 0
-    df = pd.read_csv(task_within, delimiter=';', header=0)
+def average_task_within(task_within, task_across, output_file):
+    """
+    Calculate weighted average scores for both within and across tasks
+    and write results to an output file.
+    
+    Args:
+        task_within (str): Path to the within task CSV file
+        task_across (str): Path to the across task CSV file
+        output_file (str): Path to write the output results
+    """
+    # Process within task data
+    df_within = pd.read_csv(task_within, delimiter=';', header=0)
     total_sum_within = 0
     total_n_within = 0
-    for index, row in df.iterrows():
+    
+    for index, row in df_within.iterrows():
         total_sum_within += row['score'] * row['n']
         total_n_within += row['n']
-    mean_within = total_sum_within / total_n_within
-    print("mean: ",mean_within)
     
-    #across
-    df = pd.read_csv(task_across, delimiter=';', header=0)
+    mean_within = total_sum_within / total_n_within
+    print(f"mean within: {mean_within}")
+    
+    # Process across task data
+    df_across = pd.read_csv(task_across, delimiter=';', header=0)
     total_sum_across = 0
     total_n_across = 0
-    for index, row in df.iterrows():
+    
+    for index, row in df_across.iterrows():
         total_sum_across += row['score'] * row['n']
         total_n_across += row['n']
-    print("sum_across: ",total_sum_across)
-    print("total n across :",total_n_across)
-
-    #mean = total_sum / len(df.index)
-    mean_across = total_sum_across / total_n_across
-    print("mean_across: ",mean_across)
-
-    f = open(within_average_score,"w")
-    f.write("{")
-    f.write("\nwithin: ")
-    f.write(str(mean_within))
-    f.write(" \n")
-    f.write("across: ")
-    f.write(str(mean_across))
-    f.write(" \n}")
     
-    f.close()
-def average_task_across(task_file, across_average_score):
-    data = [line.strip().split(" ") for line in  open(task_file, 'r', encoding="utf8")]
-    total_sum = 0
-    n_lines = 0 
+    print(f"sum across: {total_sum_across}")
+    print(f"total n across: {total_n_across}")
+    mean_across = total_sum_across / total_n_across
+    print(f"mean across: {mean_across}")
+    
+    # Write results to output file
+    with open(output_file, "w") as f:
+        f.write("{\n")
+        f.write(f"within: {mean_within}\n")
+        f.write(f"across: {mean_across}\n")
+        f.write("}")
+
+def average_task_across(task_file, output_file):
+    """
+    Calculate weighted average score for a single task
+    and write the result to an output file.
+    
+    Args:
+        task_file (str): Path to the task CSV file
+        output_file (str): Path to write the output results
+    """
     df = pd.read_csv(task_file, delimiter=';', header=0)
     total_sum = 0
     total_n = 0
+    
     for index, row in df.iterrows():
         total_sum += row['score'] * row['n']
         total_n += row['n']
-
+    
     mean = total_sum / total_n
-    print("mean: ",mean)
+    print(f"mean: {mean}")
     
-    f = open(across_average_score,"w")
-    f.write("within : { \n")
-    f.write(str(mean))
-    f.write(" \n}")
-    f.close()
+    # Write result to output file
+    with open(output_file, "w") as f:
+        f.write("within: {\n")
+        f.write(f"{mean}\n")
+        f.write("}")
+
+def main():
+    """Parse command line arguments and run the appropriate functions."""
+    parser = argparse.ArgumentParser(description="Calculate average scores for ABX-accent tasks")
+    parser.add_argument("task_within", help="Path to the within task file")
+    parser.add_argument("task_across", help="Path to the across task file")
+    parser.add_argument("within_average_score", help="Output file for within task average score")
+    parser.add_argument("across_average_score", help="Output file for across task average score")
     
-
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("task_within", help="within task file")
-    parser.add_argument("task_across", help="across task file")
-    parser.add_argument('within_average_score')
-    parser.add_argument('across_average_score')
-    parser.parse_args()
-    args, leftovers = parser.parse_known_args()
-
+    args = parser.parse_args()
+    
+    # Run the averaging functions
     average_task_across(args.task_within, args.within_average_score)
     average_task_within(args.task_within, args.task_across, args.across_average_score)
 
-
+if __name__ == "__main__":
+    main()
