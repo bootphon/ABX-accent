@@ -2,7 +2,7 @@
 # Script to run convert_features.py for multiple accents
 
 # Base directories
-BASE_DIR="/scratch2/mkhentout/data/AESRC_2h_data"
+BASE_DIR="your-path"
 OUTPUT_FEATURES_DIR="./features"
 OUTPUT_TIMES_DIR="./times"
 
