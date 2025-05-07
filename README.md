@@ -19,7 +19,7 @@ Getting Started
 -------------------
 To begin working with the AESRC development data and run evaluations, you will find the following resources in the repository:
 
-- To get the dataset, please contact :XXX
+- To get the dataset, please go to their [website](https://www.nexdata.ai/company/sponsored-datasets) and ask for "Interspeech_ Accented English Speech Recognition Competition Data" .
 - [Scripts for both data preparation and evaluation](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts) .
 - [The evaluation result](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/data).
 
