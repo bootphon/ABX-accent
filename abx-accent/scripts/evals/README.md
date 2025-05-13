@@ -6,8 +6,8 @@ Organization
 -------------
 
 The main modules and submodules:
-- [ABXpy](https://github.com/bootphon/ABXpy) : for the ABX evaluation environment.
-  
+- [ABXpy](https://github.com/bootphon/ABXpy) : for the ABXpy evaluation environment.
+- [fastabx]() : for fastABX evaluation env.
 - [Item files](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_item_files) : generate the item files used by ABX.
     - `aesrc_item.py` : script used to generate ABX item files from the AESRC corpus.
 - [H5features](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals/generate_abx_score/h5features): features can be computed using external tools and converted for use with this package via the `h5features module`.
