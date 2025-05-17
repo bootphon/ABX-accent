@@ -5,9 +5,12 @@ The **ABX-accent** project is based on the preparation and evaluation of the Acc
 What is ABX Evaluation?
 =======================
 
-[The ABXpy](https://docs.cognitive-ml.fr/ABXpy/)  metric evaluates whether a representation **X** of a speech unit (e.g., the word “bap”) is closer to a same-category example **A** (also “bap”) than to a different-category example **B** (e.g., “bop”). The ABX error rate is calculated by averaging the classification errors over all minimal phoneme trigrams in the corpus.
 
 This benchmark focuses on the more challenging **ABX across-speaker** task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
+The ABX metric evaluates whether a representation X of a speech unit (e.g., the triphone “bap”) is closer to a same-category example A (also “bap”) than to a different-category example B (e.g., “bop”). The ABX error rate is calculated by averaging the discrimination errors over all minimal triphone pairs (ie., differing only by the central phoneme) in the corpus.
+
+This benchmark focuses on the more challenging ABX across (within) speaker task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
+
 
 About the Dataset
 =================
