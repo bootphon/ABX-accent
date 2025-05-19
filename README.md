@@ -1,15 +1,16 @@
 ABX-accent 
 ==============
-The **ABX-accent** project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using ABXpy for evaluation [2][3]. This repository provides all the necessary tools and resources to carry out both dataset preparation and evaluation.
+TABX-accent
+-----------
+
+The ABX-accent project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using fastABX [2] for evaluation. This repository provides all the items files you can use for evaluation.
+
 
 What is ABX Evaluation?
-=======================
-
-
-This benchmark focuses on the more challenging **ABX across-speaker** task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
+-----------------------
 The ABX metric evaluates whether a representation X of a speech unit (e.g., the triphone “bap”) is closer to a same-category example A (also “bap”) than to a different-category example B (e.g., “bop”). The ABX error rate is calculated by averaging the discrimination errors over all minimal triphone pairs (ie., differing only by the central phoneme) in the corpus.
+This benchmark focuses on the more challenging ABX across(and within) speaker task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
 
-This benchmark focuses on the more challenging ABX across (within) speaker task, where the X example is spoken by a different speaker than the ones in pair (A, B), testing speaker-invariant phonetic discrimination.
 
 
 About the Dataset
@@ -85,8 +86,5 @@ References
 -----------
 - [1] Xian Shi, Fan Yu, Yizhou Lu, Yuhao Liang, Qiangze Feng, Daliang Wang, Yanmin Qian, and Lei Xie, “The accented english speech recognition challenge 2020: open datasets, tracks, baselines, results and methods,” in ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing       (ICASSP).IEEE, 2021, pp. 6918–6922.
   
-- [2] Ewan Dunbar, Julien Karadayi, Mathieu Bernard, Xuan-Nga Cao, Robin Algayres, Lucas Ondel, Laurent Besacier, Sakriani Sakti, and Emmanuel Dupoux, “The zero resource speech challenge 2020: Discovering discrete subword and word units,” 2020.
-
-- [3] Ewan Dunbar, Mathieu Bernard, Nicolas Hamilakis, Tu Anh Nguyen, Maureen de Seyssel, Patricia Roz ́e, Morgane Rivi`ere, Eugene Kharitonov, and Emmanuel Dupoux, “The zero resource speech challenge 2021: Spoken language modelling,” 2021.
-
+- [2] Maxime Poli, Emmanuel Chemla, Emmanuel Dupoux "fastabx: A library for efficient computation of ABX discriminability" arXiv:2505.02692v1 [cs.CL] 5 May 2025.
 
