@@ -67,7 +67,7 @@ abx-accent/
 License
 --------
 
-**Copyright 2022 CoML team (Inria, ENS, CNRS, EHESS)**
+**Copyright 2022 CoML team (ENS, CNRS, INRIA, EHESS)**
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
