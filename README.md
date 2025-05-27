@@ -39,29 +39,29 @@ abx-accent/
 ├──  scripts
 │   └── prepare/
 │   │   └── data_splits
-│   │   └── abkhazia
-│   └── evals/
+│   │   └── abkhazia (forced_alignment)
+│   └── README.md
+│   └── eval/
 │   │   └── generate_item_files
 │   │   └── generate_abx_score
-│   │   └── abx_score_average
-│   └── README.rst
+│   │   └── fastABX/
+│   └──  environment.yml
+│   └── README.md
 ├── data
 │   └── prepare/
 │   │   └── data_splits
-│   │   └── abkhazia
-│   │   │   └── forced_alignment
-│   └── evals/
+│   │   └── abkhazia (forced_alignment)
+│   │   └── gender_speakers_list.txt
+│   └── README.md
+│   └── eval/
 │   │   └── item_files
 │   │   │   └── dev_set
 │   │   │   └── test_set
-│   │   └── abx_score
+│   │   └── fastABX
 │   │   │   └── across_task
 │   │   │   └── within_task
-│   │   └── abx_score_average
-│   │   │   └── dev_set
-│   │   │   └── test_set
-│   └── README.rst
-│README.rst
+│   └── README.md
+│README.md
 ```
 
 License
