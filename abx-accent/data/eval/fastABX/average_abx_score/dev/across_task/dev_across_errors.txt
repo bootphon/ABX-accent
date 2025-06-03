@@ -1,0 +1,21 @@
+Accent          fastabx-errors 
+American        0.3601629071
+British         0.3681037099
+Canadian        0.3336751709
+Chinese         0.3349221219
+Indian          0.3619758626
+Japanese        0.3171150604
+Korean          0.3205704178
+Portuguese      0.3249903917
+Russian         0.3481128693
+Spanish         0.3401469347
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
