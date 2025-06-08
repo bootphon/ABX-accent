@@ -11,7 +11,7 @@ Perform phone-level forced alignment on your own corpus of annotated audio files
   * Example: `dev_american_align.align` contains forced alignment outputs for the American accent in the dev set.
 
 * **`test/`**:
-  Contains forced alignment results for the test set. Each file is named as `test_<accent>_align.txt`, corresponding to a specific accent.
+  Contains forced alignment results for the test set. Each file is named as `test_<accent>_align.align`, corresponding to a specific accent.
 
   * Example: `test_american_align.align` contains forced alignment outputs for the American accent in the test set.
 
