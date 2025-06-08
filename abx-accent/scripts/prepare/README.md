@@ -1,36 +1,55 @@
-# Data Preparation
+## Data Preparation
 
-## Environment Setup
-- `.gitlab-ci.yml`: Configuration file for setting up the environment used by the preparation scripts.
+### Environment Setup
 
-## Data Split Scripts
-Location: [Split data scripts](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/data_splits)
+* `.gitlab-ci.yml`: Configuration file used to set up the environment for running the preparation scripts.
 
-These scripts are used to split the AESRC dataset into:
-- Six female and six male speakers per accent
-- Two hours of speech for ABX testing
-- Two minutes of speech per speaker for adaptation 
+---
+
+### Data Split Scripts
+
+**Location:** `Split data scripts/`
+
+These scripts are used to split the AESRC dataset into the following subsets:
+
+* Six female and six male speakers per accent
+* Two hours of speech for ABX testing
+* Two minutes of speech per speaker for adaptation
+
+---
 
 ### Scripts and Files
-1. **`aesrc_gender_split.py`**: 
-   - Generates the `aesrc_speakers_list.txt` file
-   - Requires Python 3.6 or higher
 
-2. **`aesrc_speakers_list.txt`**: 
-   - Contains lists of all female and male speakers for each accent
-   - Example format: `American_M = ['G00007', 'G00550', ..., 'G00XXX']`
-   - These lists can be used to directly select subsets for dev, test, and train sets
+* `aesrc_gender_split.py`
 
-3. **`aesrc_dataset_split.py`**: 
-   - Generates lists of filenames according to the specified data length
-   - In this study:
-     - 10 minutes per speaker for dev/test sets 
-     - 2 minutes per speaker for adaptation
+  * Generates the `aesrc_speakers_list.txt` file
+  * Requires **Python 3.6+**
 
-## Abkhazia Format Preparation
-Location: [Abkhazia](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia)
+* `aesrc_speakers_list.txt`
 
-After splitting the data, these scripts prepare it in the standard format required by Abkhazia.
+  * Contains lists of male and female speakers per accent
+  * **Example format:**
+    `American_M = ['G00007', 'G00550', ..., 'G00XXX']`
+  * These lists can be used to select subsets for dev, test, and train sets
+
+* `aesrc_dataset_split.py`
+
+  * Generates lists of filenames based on the required data duration
+  * In this study:
+
+    * **10 minutes per speaker** for dev/test sets
+    * **2 minutes per speaker** for adaptation
+
+---
+
+### Abkhazia Format Preparation
+
+**Location:** `Abkhazia/`
+
+After splitting, these scripts format the data according to the Abkhazia standard requirements.
+
+---
 
 ### Dependencies
-- Requires packages specified in [setup.py](https://github.com/bootphon/ABX-accent/edit/main/abx-accent/scripts/prepare/Setup.py)
+
+* Requires the packages listed in `setup.py`
