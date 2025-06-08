@@ -2,7 +2,7 @@
 
 This workflow is based on [bootphon/fastabx](https://github.com/bootphon/fastabx).
 
-## From `.h5f` Feature Files
+# From `.h5f` Feature Files
 
 1. **Convert features**
    Run the conversion script to transform `.h5f` feature files:v
