@@ -24,7 +24,7 @@ These scripts are used to split the AESRC dataset into:
 3. **`aesrc_dataset_split.py`**: 
    - Generates lists of filenames according to the specified data length
    - In this study:
-     - 10 minutes per speaker for dev/test sets (for ABXpy)
+     - 10 minutes per speaker for dev/test sets 
      - 2 minutes per speaker for adaptation
 
 ## Abkhazia Format Preparation
