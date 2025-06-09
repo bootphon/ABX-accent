@@ -8,10 +8,9 @@ Organization
 
 The main modules and submodules:
 -Prepare: for data preparation
-- [fastABX](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/fastABX) : 
+- [fastABX](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/fastABX) 
 
-- [H5features](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/generate_abx_score/h5features): the features can be calculated in numpy via external tools, and made compatible with this package with the `h5features module`. - `generate_features_files.py`, generate the `h5_file.h5f`file on each input dataset.        
-
+- [generate_item_files](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/generate_item_files)
 
 
 
@@ -35,13 +34,7 @@ this repository and go to its root directory. Then :
          aesrc_gender_split.py
       
     - eval scripts:
-          
-       - features files:
-           run `python3 generate_features_files.py input output`
-           input:feats.scp
-           output:h5_file.h5f
-
-      - fastABX
-      convert_all_features.sh
-      run_fastabx.py
+      - [fastABX](https://github.com/bootphon/fastabx)
+       - convert_all_features.sh
+       - run_fastabx.py
     
