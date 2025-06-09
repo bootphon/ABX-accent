@@ -35,10 +35,6 @@ this repository and go to its root directory. Then :
          aesrc_gender_split.py
       
     - eval scripts:
-       - item files: 
-          run `python3 aesrc_item.py input output`
-          input:alignment_file corpus_dir
-          output:item_file
           
        - features files:
            run `python3 generate_features_files.py input output`
