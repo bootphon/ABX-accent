@@ -1,7 +1,5 @@
 ABX-accent 
 ==============
-TABX-accent
------------
 
 The ABX-accent project is based on the preparation and evaluation of the Accented English Speech Recognition Challenge (AESRC) dataset [1], using fastABX [2] for evaluation. This repository provides all the items files you can use for evaluation.
 
