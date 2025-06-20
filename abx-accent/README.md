@@ -1,24 +1,31 @@
-Getting Started with ABX-accent
-===============================
-To begin working with the ABX-accent project, follow these two main steps:
+# Getting Started with ABX-accent
 
-1. **Prepare the AESRC development dataset**
-Process and format the data to be compatible with the ABX evaluation.
+The **ABX-accent** project provides tools for evaluating speech representations across accents using ABX discriminability tasks.
 
-2. **Set up the evaluation environment**
-Install and configure the software required to run ABX evaluations using ABXpy.
- 
-Project Structure
-=================
-The repository is organized into two main modules: 'scripts/ and data/, each containing several submodules related to data preparation and evaluation.
+## Overview
+
+To get started, follow these two steps:
+
+1. **Prepare the AESRC development dataset**  
+   Format and preprocess the data to make it compatible with ABX evaluation.
+
+2. **Set up the evaluation environment**  
+   Install and configure the tools needed to run ABX evaluations using [ABXpy](https://github.com/bootphon/ABXpy).
+
+---
+
+## Project Structure
+
+The repository is organized into two main directories: `scripts/` and `data/`, each with submodules for data preparation and evaluation.
+
+
 ```
-
 abx-accent/
 ├──  scripts
 │   └── prepare/
 │   │   └── abkhazia
 │   │   └── data_splits/
-│   │   │   └── aesrc_gender_split.py
+│   │   │   └── aesrc_gen<der_split.py
 │   │   │   └── aesrc_dataset_split.py
 │   └── eval/
 │   │   └── fastABX/
@@ -69,13 +76,10 @@ These scripts are responsible for processing the AESRC dataset into a format com
   - [``Abkhazia's scripts``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/prepare/abkhazia)
     This tools convert the dataset into the standard format required for ABXpy.
   
-- [``Evaluations scripts``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/evals)
+- [``Evaluations scripts``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval)
   scripts used for the evaluation process:
- 
-  - [``ABXpy package``](https://github.com/bootphon/ABXpy):
-     Runs ABX scoring for both *across-speaker* and *within-speaker* tasks on the *dev* and *test* sets.
 
-  - [``ABX score averaging``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/average)
+  - [``fastABX``](https://github.com/bootphon/ABX-accent/tree/main/abx-accent/scripts/eval/fastABX)
     Runs ABX scoring for both *across-speaker* and *within-speaker* tasks on the *dev* and *test* sets.
 
 
