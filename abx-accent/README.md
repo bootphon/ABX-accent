@@ -25,7 +25,7 @@ abx-accent/
 │   └── prepare/
 │   │   └── abkhazia
 │   │   └── data_splits/
-│   │   │   └── aesrc_gen<der_split.py
+│   │   │   └── aesrc_gender_split.py
 │   │   │   └── aesrc_dataset_split.py
 │   └── eval/
 │   │   └── fastABX/
